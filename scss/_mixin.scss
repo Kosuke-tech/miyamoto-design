@@ -1,0 +1,13 @@
+
+
+
+
+/*---------------------------------------
+*   media_query
+*---------------------------------------*/
+
+@mixin media_query($breakepoint) {
+    @media screen and (max-width:$breakepoint) {
+        @content;
+    }
+}

@@ -1,0 +1,211 @@
+@use "base";
+@use "layout";
+@use "variable" as var;
+@use "mixin" as mix;
+@use "utility";
+
+
+/*----------------------------------------
+    Variables
+----------------------------------------*/
+:root {
+    --main_blue: #6CB4EE;
+    --main_green: #8BD8BD;
+    --heading_green: #80CFA9;
+    --main_text: #6B7280;
+    --sub_text: #5D5D5D;
+    --bg_blue: #3D92E6;
+    --qa_blue: #8BA0FF;
+    --gray:#E8E8E8;
+    --black: #333333;
+    --white: #FFFFFF;
+}
+
+
+
+/*----------------------------------------
+    各セクションのタイトル
+----------------------------------------*/
+
+.heading {
+    display: flex;
+    align-items: flex-end;
+    &__en {
+        color: #80CFA9;
+        font-size: 4rem;
+        font-weight: 900;
+        line-height: 1;
+        margin-right: 20px;
+    }
+    &__Jp {
+        font-size: .875rem;
+        font-weight: bold;
+        color: #6B7280;
+    }
+}
+
+/*----------------------------------------
+    メールで相談ボタン
+----------------------------------------*/
+
+.btn1 {
+    width: 200px;
+    display: inline-block;
+    padding: 10px 30px;
+    text-align: center;
+    background: linear-gradient(to left, #FFFFFF, #98F0FF);
+    border-radius: 20px 20px 20px 0;
+        @include mix.media_query (var.$x-large) {
+            padding: 5px 15px;
+        }
+            &:hover {
+            transform: scale(1.03);
+            transition: all ease .3s;
+            @include mix.media_query (var.$large) {
+                transform: scale(1);
+                transition: none;
+            }
+        }
+    &__text {
+        margin-left: 3px;
+        font-size: .875rem;
+        color: #7A9BA9;
+        white-space: nowrap;
+        @include mix.media_query (var.$large) {
+            font-size: .75rem;
+        }
+    }
+}
+
+.fa-envelope {
+    font-size: 1.5em;
+    color: #FFF;
+}
+
+
+/*----------------------------------------
+    LINEで相談ボタン
+----------------------------------------*/
+
+.btn2 {
+    width: 200px;
+    display: inline-block;
+    padding: 10px 30px;
+    text-align: center;
+    background: linear-gradient(to left, #FFFFFF, #A2FFCE);
+    border-radius: 20px 20px 20px 0;
+        @include mix.media_query (var.$x-large) {
+            padding: 5px 15px;
+        }
+        &:hover {
+            transform: scale(1.03);
+            transition: all ease .3s;
+            @include mix.media_query (var.$large) {
+                transform: scale(1);
+                transition: none;
+                
+            }
+        }
+    &__text {
+        margin-left: 3px;
+        font-size: .875rem;
+        color: #7A9BA9;
+        white-space: nowrap;
+            @include mix.media_query (var.$large) {
+            font-size: .75rem;
+        }
+    }
+}
+
+.fa-line {
+    font-size: 1.5em;
+    color: #00B900;
+    background: #FFF;
+    border-radius: 3px;
+}
+
+
+/*----------------------------------------
+    一覧へボタン
+----------------------------------------*/
+
+.btn3 {
+    display: inline-block;
+    margin: 0 auto;
+    padding: .2em .5em;
+    border-radius: 10px;
+    // border: #5d5d5d 1px solid;
+    background: #80CFA9;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.1);
+    &__text {
+        padding: 5px 16px;
+        font-size: .875rem;
+        color: #FFF;
+    }
+}
+
+
+/*----------------------------------------
+    ゼンナゲボタン
+----------------------------------------*/
+
+.btn4 {
+    display: inline-block;
+    padding: 10px 35px 10px 20px;
+    border: 1px solid #333333;
+    border-radius: 50px;
+    background: #FFF;
+    &:hover {
+        transform: scale(1.02);
+        transition: all ease .3s;
+        opacity: .5;
+        @include mix.media_query (var.$medium) {
+            transform: scale(1);
+            transition: none;
+            opacity: 1;
+        }
+    }
+    &:hover &__icon {
+        transform: translateX(15px); // 右に15px移動
+        transition: all ease .5s;
+        @include mix.media_query (var.$medium) {
+            transform: translateX(0);
+            transition: none;
+        }
+     }
+    &__text {
+        margin-right: 10px;
+    }
+}
+
+/*----------------------------------------
+    投稿記事一覧ページのボタン
+----------------------------------------*/
+.btn5 {
+    &__text {
+        width: 220px;
+        padding: 15px 30px;
+        display: inline-block;
+        border: none;
+        border-radius: 20px;
+        font-size: 1rem;
+        font-weight: bold;
+        background: linear-gradient(to left, #6CB4EE, #8BD8BD);
+        color: var(--white);
+        white-space: nowrap;
+        text-align: center;
+        @include mix.media_query (var.$medium) {
+            width: 180px;
+            margin-top: 30px;
+            font-size: .875rem;
+        }
+    }
+    &:hover a {
+        transition: all 0.3s ease;
+        box-shadow: 4px 4px 8px #d1d1d4, -4px -4px 8px #FFF;
+        transform: scale(0.95);
+         @include mix.media_query (var.$medium) {
+            transition: none;
+         }
+    }
+}

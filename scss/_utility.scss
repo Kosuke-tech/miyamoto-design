@@ -1,0 +1,7 @@
+@use "variable" as var;
+@use "mixin" as mix;
+
+
+html {
+    scroll-behavior: smooth;
+}

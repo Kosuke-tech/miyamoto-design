@@ -1,0 +1,39 @@
+/*---------------------------------------
+*   基本のstyleの指定
+*---------------------------------------*/
+
+body {
+    color: #6B7280;
+    line-height: 1.8;
+    font-family:
+            "Roboto",
+            "Roboto Condensed",
+            "Noto Sans JP",
+            "Noto Sans",
+            'Inter',
+            "ヒラギノ角ゴ ProN",
+            "Hiragino Kaku Gothic ProN",
+            "メイリオ",
+            "Meiryo",
+            sans-serif;
+    * {
+            box-sizing: border-box;
+    }
+}
+ul {
+list-style: none;
+}
+li {
+    list-style: none;
+}
+a {
+color: #6B7280;
+text-decoration: none;
+}
+img {
+max-width: 100%;
+vertical-align: bottom;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}

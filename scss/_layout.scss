@@ -1,0 +1,21 @@
+@use "variable" as var;
+@use "mixin" as mix;
+
+
+/*---------------------------------------
+*   .blContainer(共通)
+*---------------------------------------*/
+
+.blContainer {
+    max-width: 1280px;
+    width: 92%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.formContainer {
+    max-width: 900px;
+    width: 92%;
+    margin-right: auto;
+    margin-left: auto;
+}
