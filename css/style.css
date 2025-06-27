@@ -1928,6 +1928,52 @@ body {
   color: var(--white);
   background: linear-gradient(to left, #ADCEFF, #08111F);
 }
+.table__price {
+  font-weight: bold;
+}
+.table__discountWrap1 {
+  position: relative;
+  margin-top: 20px;
+}
+.table__discountWrap1::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 100%;
+  background: #869ab7;
+}
+.table__discountWrap2 {
+  position: relative;
+  margin-top: 20px;
+}
+.table__discountWrap2::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 100%;
+  background: linear-gradient(to left, #6CB4EE, #8BD8BD);
+}
+.table__discountWrap3 {
+  position: relative;
+  margin-top: 20px;
+}
+.table__discountWrap3::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 100%;
+  background: linear-gradient(to left, #ADCEFF, #08111F);
+}
+.table__discount {
+  font-size: 1rem;
+  font-weight: bold;
+}
 
 @-webkit-keyframes horizontal-bounce {
   0% {

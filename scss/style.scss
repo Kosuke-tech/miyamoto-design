@@ -1361,6 +1361,53 @@ body {
         color: var(--white);
         background: linear-gradient(to left, #ADCEFF, #08111F);
     }
+    &__price {
+        font-weight: bold;
+    }
+    &__discountWrap1 {
+        position: relative;
+        margin-top: 20px;
+        &::after {
+            content: "";
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            height: 2px;
+            width: 100%;
+            background: #869ab7;
+        }
+    }
+    &__discountWrap2 {
+        position: relative;
+        margin-top: 20px;
+        &::after {
+            content: "";
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            height: 2px;
+            width: 100%;
+            background: linear-gradient(to left, #6CB4EE, #8BD8BD);
+        }
+    }
+    &__discountWrap3 {
+        position: relative;
+        margin-top: 20px;
+        &::after {
+            content: "";
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            height: 2px;
+            width: 100%;
+            background: linear-gradient(to left, #ADCEFF, #08111F);
+        }
+    }
+    &__discount {
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
 }
 
 @keyframes horizontal-bounce {

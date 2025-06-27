@@ -337,18 +337,40 @@
                             <th class="table__headerSell3 border2">長期運用で集客を目的とした企業サイト<br><span class="table__planName">カスタムプラン</span></th>
                         </tr>
                     </thead>
-                    <tbody>
+                                     <tbody>
                         <tr>
                             <td>目的</td>
-                            <td class="table__purpose"><span class="table__purposeBold">会社の名刺代わりの簡易的なサイト</span><br>個人事業主の方におすすめ</td>
-                            <td class="table__purpose"><span class="table__purposeBold">しっかりとした企業サイト</span><br>企業サイトを作りたい事業者さまにおすすめ</td>
-                            <td class="table__purpose"><span class="table__purposeBold">長期視点で集客を目的としたサイト</span><br>集客もしたいという事業者さまにおすすめ</td>
+                            <td class="table__purpose">
+                                <span class="table__purposeBold">会社の名刺代わりの簡易的なサイト</span><br>事業の顔となるサイトが欲しい事業者さまにおすすめ
+                            </td>
+                            <td class="table__purpose">
+                                <span class="table__purposeBold">しっかりとした企業サイト</span><br>しっかり企業サイトを作りたい事業者さまにおすすめ
+                            </td>
+                            <td class="table__purpose">
+                                <span class="table__purposeBold">長期視点で集客を目的としたサイト</span><br>集客もしたいという事業者さまにおすすめ
+                            </td>
                         </tr>
                         <tr>
                             <td>料金目安</td>
-                            <td><span class="table__priceLabel1">初期費用30万円ほど</span><br>運用代行ご利用の場合、25万円に減額</td>
-                            <td><span class="table__priceLabel2">初期費用45万円ほど</span><br>運用代行ご利用の場合、36万円に減額</td>
-                            <td><span class="table__priceLabel3">初期費用68万円ほど</span><br>運用代行ご利用の場合、55万円に減額</td>
+                            <td class="table__price">
+                                <span class="table__priceLabel1">初期費用20万円ほど</span>
+                                <div class="table__discountWrap1">
+                                    運用代行ご利用の場合、<span class="table__discount">17万円</span>に減額
+                                </div>
+                            </td>
+                            <td class="table__price">
+                                <span class="table__priceLabel2">
+                                    初期費用35万円ほど</span>
+                                <div class="table__discountWrap2">
+                                    運用代行ご利用の場合、<span class="table__discount">28万円</span>に減額
+                                </div>
+                            </td>
+                            <td class="table__price">
+                                <span class="table__priceLabel3">初期費用51万円ほど</span>
+                                <div class="table__discountWrap3">
+                                    運用代行ご利用の場合、<span class="table__discount">48万円</span>に減額
+                                </div>
+                            </td>
                         </tr>
                         <tr>
                             <td>全体のページ数</td>
