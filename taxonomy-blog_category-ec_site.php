@@ -55,7 +55,8 @@
                 <img class="blog__img" alt="電球のイラスト画像"
                     src="<?php echo esc_url(get_theme_file_uri('img/blog@1x.png')); ?>"
                     srcset="<?php echo esc_url(get_theme_file_uri('img/blog@1x.png')); ?> 1x,
-                             <?php echo esc_url(get_theme_file_uri('img/blog@2x.png')); ?> 2x">
+                             <?php echo esc_url(get_theme_file_uri('img/blog@2x.png')); ?> 2x"
+                    loading="lazy">
             </div>
         </div>
         <div class="blog__contentsWrap">

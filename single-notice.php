@@ -45,7 +45,8 @@
                             <img class="singleNotice__img" alt="サムネルの投稿がない場合に表示する画像"
                                 src="<?php echo esc_url(get_theme_file_uri('img/no_image@1x.png')); ?>"
                                 srcset="<?php echo esc_url(get_theme_file_uri('img/no_image@1x.png')); ?> 1x,
-                    <?php echo esc_url(get_theme_file_uri('img/no_image@2x.png')); ?> 2x">
+                    <?php echo esc_url(get_theme_file_uri('img/no_image@2x.png')); ?> 2x"
+                                loading="lazy">
                         <?php }; ?>
                     </div>
                     <div class="singleNotice__content">
@@ -83,12 +84,14 @@
                             <?php if (has_post_thumbnail()) : ?>
                                 <img class="otherPost__img" alt="<?php the_title_attribute(); ?> のサムネイル"
                                     src="<?php echo esc_url(get_the_post_thumbnail_url(null, 'full')); ?>"
-                                    srcset="<?php echo esc_attr($thumbnail_srcset); ?>">
+                                    srcset="<?php echo esc_attr($thumbnail_srcset); ?>"
+                                    loading="lazy">
                             <?php else : ?>
                                         <img class="otherPost__img" alt="サムネイルなし"
                                         src="<?php echo esc_url(get_theme_file_uri('img/no_image@1x.png')); ?>"
                                         srcset="<?php echo esc_url(get_theme_file_uri('img/no_image@1x.png')); ?> 1x,
-                                                <?php echo esc_url(get_theme_file_uri('img/no_image@2x.png')); ?> 2x">
+                                                <?php echo esc_url(get_theme_file_uri('img/no_image@2x.png')); ?> 2x"
+                                        loading="lazy">
                                                 
                             <?php endif; ?>
                         </div>

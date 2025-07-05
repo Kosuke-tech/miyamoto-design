@@ -67,7 +67,8 @@
                         <img class="operation__img" alt="困っている表情の男性と女性のイラスト画像"
                             src="<?php echo esc_url(get_theme_file_uri('img/operation@1x.png')); ?>"
                             srcset="<?php echo esc_url(get_theme_file_uri('img/operation@1x.png')); ?> 1x,
-                            <?php echo esc_url(get_theme_file_uri('img/operation@2x.png')); ?> 2x">
+                            <?php echo esc_url(get_theme_file_uri('img/operation@2x.png')); ?> 2x"
+                            loading="lazy">
                     </div>
                 </div>
             </div>
@@ -91,7 +92,8 @@
                 <img class="leave__img" alt="階段をステップアップするように登る男性のイラスト画像"
                     src="<?php echo esc_url(get_theme_file_uri('img/leave@1x.png')); ?>"
                     srcset="<?php echo esc_url(get_theme_file_uri('img/leave@1x.png')); ?> 1x,
-                    <?php echo esc_url(get_theme_file_uri('img/leave@2x.png')); ?> 2x">
+                    <?php echo esc_url(get_theme_file_uri('img/leave@2x.png')); ?> 2x"
+                    loading="lazy">
             </div>
         </div>
         <div class="leave__cardWrap">
@@ -292,7 +294,8 @@
                     <img class="jobDescription__img" alt="パソコンのキーボードを打ち込んでいるイメージ画像"
                         src="<?php echo esc_url(get_theme_file_uri('img/job_description1@1x.png')); ?>"
                         srcset="<?php echo esc_url(get_theme_file_uri('img/job_description1@1x.png')); ?> 1x,
-                        <?php echo esc_url(get_theme_file_uri('img/job_description1@1x.png')); ?> 2x">
+                        <?php echo esc_url(get_theme_file_uri('img/job_description1@1x.png')); ?> 2x"
+                        loading="lazy">
                 </div>
                 <div class="jobDescription__textWrap">
                     <div class="jobDescription__numberWrap">
@@ -314,7 +317,8 @@
                     <img class="jobDescription__img" alt="資料をデスクに並べて打ち合わせをしているイメージ画像あ"
                         src="<?php echo esc_url(get_theme_file_uri('img/job_description2@1x.png')); ?>"
                         srcset="<?php echo esc_url(get_theme_file_uri('img/job_description2@1x.png')); ?> 1x,
-                        <?php echo esc_url(get_theme_file_uri('img/job_description2@1x.png')); ?> 2x">
+                        <?php echo esc_url(get_theme_file_uri('img/job_description2@1x.png')); ?> 2x"
+                        loading="lazy">
                 </div>
                 <div class="jobDescription__textWrap">
                     <div class="jobDescription__numberWrap">
@@ -336,7 +340,8 @@
                     <img class="jobDescription__img" alt="グラフを表示しているノートパソコンの画像"
                         src="<?php echo esc_url(get_theme_file_uri('img/job_description3@1x.png')); ?>"
                         srcset="<?php echo esc_url(get_theme_file_uri('img/job_description3@1x.png')); ?> 1x,
-                        <?php echo esc_url(get_theme_file_uri('img/job_description3@1x.png')); ?> 2x">
+                        <?php echo esc_url(get_theme_file_uri('img/job_description3@1x.png')); ?> 2x"
+                        loading="lazy">
                 </div>
                 <div class="jobDescription__textWrap">
                     <div class="jobDescription__numberWrap">
@@ -359,7 +364,8 @@
                     <img class="jobDescription__img" alt="コーヒーを飲みながらiPadを片手に打ち合わせをしているイメージ画像"
                         src="<?php echo esc_url(get_theme_file_uri('img/job_description4@1x.png')); ?>"
                         srcset="<?php echo esc_url(get_theme_file_uri('img/job_description4@1x.png')); ?> 1x,
-                        <?php echo esc_url(get_theme_file_uri('img/job_description4@1x.png')); ?> 2x">
+                        <?php echo esc_url(get_theme_file_uri('img/job_description4@1x.png')); ?> 2x"
+                        loading="lazy">
                 </div>
                 <div class="jobDescription__textWrap">
                     <div class="jobDescription__numberWrap">

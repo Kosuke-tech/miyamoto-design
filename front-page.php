@@ -10,7 +10,8 @@
                 <img class="keyvisual__img" alt="キービジュアルのイラスト画像"
                     src="<?php echo esc_url(get_theme_file_uri('img/keyvisual@1x.png')); ?>"
                     srcset="<?php echo esc_url(get_theme_file_uri('img/keyvisual@1x.png')); ?> 1x,
-                <?php echo esc_url(get_theme_file_uri('img/keyvisual@2x.png')); ?> 2x">
+                <?php echo esc_url(get_theme_file_uri('img/keyvisual@2x.png')); ?> 2x"
+                    loading="lazy">
             </div>
             <p class="keyvisual__text" id="keyvisual__text">
                 これまでECメーカーでの営業や事業の企画立案、マーケティングなどの実務に従事してきました。<br>
@@ -26,7 +27,8 @@
             <img class="keyvisual__img" alt="キービジュアルのイラスト画像"
                 src="<?php echo esc_url(get_theme_file_uri('img/keyvisual@1x.png')); ?>"
                 srcset="<?php echo esc_url(get_theme_file_uri('img/keyvisual@1x.png')); ?> 1x,
-            <?php echo esc_url(get_theme_file_uri('img/keyvisual@2x.png')); ?> 2x">
+            <?php echo esc_url(get_theme_file_uri('img/keyvisual@2x.png')); ?> 2x"
+                loading="lazy">
         </div>
     </div>
 </section>
@@ -60,13 +62,15 @@
                         <img class="issue__img" alt="ホームページ制作で困っている男性のイラスト画像"
                             src="<?php echo esc_url(get_theme_file_uri('img/issue1@1x.png')); ?>"
                             srcset="<?php echo esc_url(get_theme_file_uri('img/issue1@1x.png')); ?> 1x,
-                                <?php echo esc_url(get_theme_file_uri('img/issue1@2x.png')); ?> 2x">
+                                <?php echo esc_url(get_theme_file_uri('img/issue1@2x.png')); ?> 2x"
+                            loading="lazy">
                     </div>
                     <div class="issue__imgWrap">
                         <img class="issue__img" alt="ホームページ制作について困っているパソコンを操作している女性のイラスト画像"
                             src="<?php echo esc_url(get_theme_file_uri('img/issue2@1x.png')); ?>"
                             srcset="<?php echo esc_url(get_theme_file_uri('img/issue2@1x.png')); ?> 1x,
-                                <?php echo esc_url(get_theme_file_uri('img/issue2@2x.png')); ?> 2x">
+                                <?php echo esc_url(get_theme_file_uri('img/issue2@2x.png')); ?> 2x"
+                            loading="lazy">
                     </div>
                 </div>
             </div>
@@ -139,7 +143,8 @@
                     <img class="recommend__img" alt="複数人で売上増加について議論するイメージ。成長を示すグラフのイラスト画像"
                         src="<?php echo esc_url(get_theme_file_uri('img/recommend1@1x.png')); ?>"
                         srcset="<?php echo esc_url(get_theme_file_uri('img/recommend1@1x.png')); ?> 1x,
-                        <?php echo esc_url(get_theme_file_uri('img/recommend1@2x.png')); ?> 2x">
+                        <?php echo esc_url(get_theme_file_uri('img/recommend1@2x.png')); ?> 2x"
+                        loading="lazy">
                 </div>
                 <div class="recommend__textWrap">
                     <h3 class="recommend__blockTitle">従業員1~50名ほどの<br>企業さま・個人事業主さま</h3>
@@ -155,7 +160,8 @@
                     <img class="recommend__img" alt="web担当者がいない会社で困っている女性のイラスト画像"
                         src="<?php echo esc_url(get_theme_file_uri('img/recommend2@1x.png')); ?>"
                         srcset="<?php echo esc_url(get_theme_file_uri('img/recommend2@1x.png')); ?> 1x,
-                        <?php echo esc_url(get_theme_file_uri('img/recommend2@2x.png')); ?> 2x">
+                        <?php echo esc_url(get_theme_file_uri('img/recommend2@2x.png')); ?> 2x"
+                        loading="lazy">
                 </div>
                 <div class="recommend__textWrap">
                     <h3 class="recommend__blockTitle">ホームページどころか<br>パソコンやSNS自体が苦手</h3>
@@ -172,7 +178,8 @@
                     <img class="recommend__img" alt="担当者をイメージしたイラスト画像"
                         src="<?php echo esc_url(get_theme_file_uri('img/recommend3@1x.png')); ?>"
                         srcset="<?php echo esc_url(get_theme_file_uri('img/recommend3@1x.png')); ?> 1x,
-                        <?php echo esc_url(get_theme_file_uri('img/recommend3@2x.png')); ?> 2x">
+                        <?php echo esc_url(get_theme_file_uri('img/recommend3@2x.png')); ?> 2x"
+                        loading="lazy">
                 </div>
                 <div class="recommend__textWrap">
                     <h3 class="recommend__blockTitle">資料作成やSNS周りなど、<br>今後細かい部分も相談したい</h3>
@@ -199,7 +206,8 @@
                     <img class="agency__img" alt="パソコンについて、わからず焦っている男性のイラスト画像"
                         src="<?php echo esc_url(get_theme_file_uri('img/zennage@1x.png')); ?>"
                         srcset="<?php echo esc_url(get_theme_file_uri('img/zennage@1x.png')); ?> 1x,
-                        <?php echo esc_url(get_theme_file_uri('img/zennage@2x.png')); ?> 2x">
+                        <?php echo esc_url(get_theme_file_uri('img/zennage@2x.png')); ?> 2x"
+                        loading="lazy">
                 </div>
             </div>
             <div class="agency__textWrap" id="agency__textWrap">
@@ -227,7 +235,8 @@
                     <img class="ask__img" alt="電球のイラスト画像"
                         src="<?php echo esc_url(get_theme_file_uri('img/ask1@1x.png')); ?>"
                         srcset="<?php echo esc_url(get_theme_file_uri('img/ask1@1x.png')); ?> 1x,
-                        <?php echo esc_url(get_theme_file_uri('img/ask1@2x.png')); ?> 2x">
+                        <?php echo esc_url(get_theme_file_uri('img/ask1@2x.png')); ?> 2x"
+                        loading="lazy">
                 </div>
                 <div class="ask__textWrap">
                     <h3 class="ask__cardTitle">伝わりやすさを優先した<br>サイト設計とデザイン</h3>
@@ -242,7 +251,8 @@
                     <img class="ask__img" alt="電卓を持った男性のイラスト画像"
                         src="<?php echo esc_url(get_theme_file_uri('img/ask2@1x.png')); ?>"
                         srcset="<?php echo esc_url(get_theme_file_uri('img/ask2@1x.png')); ?> 1x,
-                        <?php echo esc_url(get_theme_file_uri('img/ask2@2x.png')); ?> 2x">
+                        <?php echo esc_url(get_theme_file_uri('img/ask2@2x.png')); ?> 2x"
+                        loading="lazy">
                 </div>
                 <div class="ask__textWrap">
                     <h3 class="ask__cardTitle">シンプルな設計にすることで、<br>コストを抑える</h3>
@@ -257,7 +267,8 @@
                     <img class="ask__img" alt="webサイトの運用保守をイメージしたパソコンが4つ並んでいるイラスト画像"
                         src="<?php echo esc_url(get_theme_file_uri('img/ask3@1x.png')); ?>"
                         srcset="<?php echo esc_url(get_theme_file_uri('img/ask3@1x.png')); ?> 1x,
-            <?php echo esc_url(get_theme_file_uri('img/ask3@2x.png')); ?> 2x">
+            <?php echo esc_url(get_theme_file_uri('img/ask3@2x.png')); ?> 2x"
+                        loading="lazy">
                 </div>
                 <div class="ask__textWrap">
                     <h3 class="ask__cardTitle">パソコンに不慣れな方でも<br>更新できるシステムの導入</h3>
@@ -272,7 +283,8 @@
                     <img class="ask__img" alt="オペレーターの女性のイラスト画像"
                         src="<?php echo esc_url(get_theme_file_uri('img/ask4@1x.png')); ?>"
                         srcset="<?php echo esc_url(get_theme_file_uri('img/ask4@1x.png')); ?> 1x,
-            <?php echo esc_url(get_theme_file_uri('img/ask4@2x.png')); ?> 2x">
+            <?php echo esc_url(get_theme_file_uri('img/ask4@2x.png')); ?> 2x"
+                        loading="lazy">
                 </div>
                 <div class="ask__textWrap">
                     <h3 class="ask__cardTitle">もしもの不具合や<br>作成後の変更などもサポート</h3>
@@ -302,7 +314,8 @@
                     <img class="use__img" alt="打ち合わせをしている男性と女性のイラスト画像"
                         src="<?php echo esc_url(get_theme_file_uri('img/use@1x.png')); ?>"
                         srcset="<?php echo esc_url(get_theme_file_uri('img/use@1x.png')); ?> 1x,
-                        <?php echo esc_url(get_theme_file_uri('img/use@2x.png')); ?> 2x">
+                        <?php echo esc_url(get_theme_file_uri('img/use@2x.png')); ?> 2x"
+                        loading="lazy">
                 </div>
             </div>
             <div class="use__underWrap">
@@ -356,7 +369,8 @@
                 <img class="price__img" alt="階段をステップアップするように登る男性のイラスト画像"
                     src="<?php echo esc_url(get_theme_file_uri('img/price@1x.png')); ?>"
                     srcset="<?php echo esc_url(get_theme_file_uri('img/price@1x.png')); ?> 1x,
-                    <?php echo esc_url(get_theme_file_uri('img/price@2x.png')); ?> 2x">
+                    <?php echo esc_url(get_theme_file_uri('img/price@2x.png')); ?> 2x"
+                    loading="lazy">
             </div>
         </div>
         <div class="table-wrapper">
@@ -369,7 +383,8 @@
                                 <img class="table__img" alt="横スクロールアイコン"
                                     src="<?php echo esc_url(get_theme_file_uri('img/arrow@1x.png')); ?>"
                                     srcset="<?php echo esc_url(get_theme_file_uri('img/arrow@1x.png')); ?> 1x,
-                                <?php echo esc_url(get_theme_file_uri('img/arrow@2x.png')); ?> 2x">
+                                <?php echo esc_url(get_theme_file_uri('img/arrow@2x.png')); ?> 2x"
+                                    loading="lazy">
                             </th>
                             <th class="table__headerSell1">
                                 名刺代わりの簡易的なサイト<br><span class="table__planName">ライトプラン</span>
@@ -492,7 +507,8 @@
                 <img class="work__img" alt="資料を持って何かを説明している男性のイラスト画像"
                     src="<?php echo esc_url(get_theme_file_uri('img/record@1x.png')); ?>"
                     srcset="<?php echo esc_url(get_theme_file_uri('img/record@1x.png')); ?> 1x,
-                             <?php echo esc_url(get_theme_file_uri('img/record@2x.png')); ?> 2x">
+                             <?php echo esc_url(get_theme_file_uri('img/record@2x.png')); ?> 2x"
+                    loading="lazy">
             </div>
         </div>
         <div class="work__contentsWrap">
@@ -514,13 +530,15 @@
                                 <img class="work__thumbnail" alt="<?php the_title_attribute(); ?> のサムネイル"
                                     src="<?php echo esc_url(get_the_post_thumbnail_url(null, 'full')); ?>"
                                     srcset="<?php echo esc_attr($thumbnail_srcset); ?>"
-                                    sizes="(max-width: 768px) 100vw, 400px" />
+                                    sizes="(max-width: 768px) 100vw, 400px"
+                                    loading="lazy" />
                             <?php else : ?>
                                 <img class="work__thumbnail" alt="サムネイルなし"
                                     src="<?php echo esc_url(get_theme_file_uri('img/no_image@1x.png')); ?>"
                                     srcset="<?php echo esc_url(get_theme_file_uri('img/no_image@1x.png')); ?> 1x,
                                     <?php echo esc_url(get_theme_file_uri('img/no_image@2x.png')); ?> 2x"
-                                    sizes="(max-width: 768px) 100vw, 400px" />
+                                    sizes="(max-width: 768px) 100vw, 400px"
+                                    loading="lazy" />
                             <?php endif; ?>
                         </div>
 

@@ -56,7 +56,8 @@
                 <img class="work__img" alt="資料を持って何かを説明している男性のイラスト画像"
                     src="<?php echo esc_url(get_theme_file_uri('img/record@1x.png')); ?>"
                     srcset="<?php echo esc_url(get_theme_file_uri('img/record@1x.png')); ?> 1x,
-                             <?php echo esc_url(get_theme_file_uri('img/record@2x.png')); ?> 2x">
+                             <?php echo esc_url(get_theme_file_uri('img/record@2x.png')); ?> 2x"
+                    loading="lazy">
             </div>
         </div>
         <div class="work__contentsWrap archiveWork__contentsWrap">
@@ -81,13 +82,15 @@
                                 <img class="work__thumbnail" alt="<?php the_title_attribute(); ?> のサムネイル"
                                     src="<?php echo esc_url(get_the_post_thumbnail_url(null, 'full')); ?>"
                                     srcset="<?php echo esc_attr($thumbnail_srcset); ?>"
-                                    sizes="(max-width: 768px) 100vw, 400px" />
+                                    sizes="(max-width: 768px) 100vw, 400px"
+                                    loading="lazy" />
                             <?php else : ?>
                                 <img class="work__thumbnail" alt="サムネイルなし"
                                     src="<?php echo esc_url(get_theme_file_uri('img/no_image@1x.png')); ?>"
                                     srcset="<?php echo esc_url(get_theme_file_uri('img/no_image@1x.png')); ?> 1x,
                      <?php echo esc_url(get_theme_file_uri('img/no_image@2x.png')); ?> 2x"
-                                    sizes="(max-width: 768px) 100vw, 400px" />
+                                    sizes="(max-width: 768px) 100vw, 400px"
+                                    loading="lazy" />
                             <?php endif; ?>
                         </div>
                         <div class="work__cardTextInner">

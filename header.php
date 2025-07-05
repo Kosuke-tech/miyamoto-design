@@ -38,9 +38,10 @@
             <div class="header__wrapper">
                 <a class="header__logoWrap" href="<?php echo esc_url(home_url('/')) ?>">
                     <img class="header__logo" alt="ヘッダーのロゴ"
-                        src="<?php echo esc_url(get_theme_file_uri('img/logo_horizontal@1x.png')); ?>"
-                        srcset="<?php echo esc_url(get_theme_file_uri('img/logo_horizontal@1x.png')); ?> 1x,
-            <?php echo esc_url(get_theme_file_uri('img/logo_horizontal@2x.png')); ?> 2x">
+                        src="<?php echo esc_url(get_theme_file_uri('img/logo1@1x.png')); ?>"
+                        srcset="<?php echo esc_url(get_theme_file_uri('img/logo1@1x.png')); ?> 1x,
+            <?php echo esc_url(get_theme_file_uri('img/logo1@2x.png')); ?> 2x"
+                        loading="lazy">
                 </a>
                 <ul class="header__navList">
                     <li class="header__navItem">
@@ -80,7 +81,8 @@
             <img class="spMenu__estimateBtnImg" alt="書類を持った男性のイラスト画像"
                 src="<?php echo esc_url(get_theme_file_uri('img/estimate_btn@1x.png')); ?>"
                 srcset="<?php echo esc_url(get_theme_file_uri('img/estimate_btn@1x.png')); ?> 1x,
-                    <?php echo esc_url(get_theme_file_uri('img/estimate_btn@2x.png')); ?> 2x">
+                    <?php echo esc_url(get_theme_file_uri('img/estimate_btn@2x.png')); ?> 2x"
+                loading="lazy">
             <div class="spMenu__estimateBtn">
                 <a class="spMenu__estimateLink" href="<?php echo esc_url(home_url('/contact')); ?>">お見積もり<br>無料相談はこちら</a>
             </div>
@@ -136,7 +138,7 @@
     <div id="lineModal" class="modal">
         <div class="modal__content">
             <span class="close" onclick="closeModal()">&times;</span>
-            <img src="https://qr-official.line.me/gs/M_647fpjdy_GW.png?oat_content=qr" alt="LINE QRコード" style="width: 100%; max-width: 300px;">
+            <img src="https://qr-official.line.me/gs/M_647fpjdy_GW.png?oat_content=qr" alt="LINE QRコード" style="width: 100%; max-width: 300px;" loading="lazy">
             <h2 class="modal__title">QRコードをスキャンするとLINEの友だちに追加されます</h2>
             <p class="modal__text1">
                 QRコードをスキャンするには、LINEアプリのコードリーダーをご利用ください。

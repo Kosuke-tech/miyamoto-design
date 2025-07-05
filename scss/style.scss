@@ -4863,11 +4863,8 @@ th, td {
     padding-bottom: 50px;
     background-color: rgba(61, 146, 230, 0.1);
     &__wrapper {
-        width: 750px;
+        width: 70%;
         padding: 50px;
-        display: flex;
-        justify-content: center;
-        gap: 80px;
         border-radius: 20px;
         background: #e8f4f9;
         @include mix.media_query (var.$x-large) {
@@ -4878,16 +4875,21 @@ th, td {
             gap: 30px;
         }
     }
+    &__inner {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+        gap: 20px;
+    }
     &__imgWrap {
-        width: 180px;
-        display: grid;
-        place-content: center;
+        width: 20%;
         @include mix.media_query (var.$small) {
             display: none;
         }
     }
     &__img {
         width: 100%;
+        object-fit: cover;
     }
     &__textWrap {
         width: 500px;
@@ -4925,6 +4927,7 @@ th, td {
     }
     &__author {
         margin-bottom: 10px;
+        text-align: center;
         font-size: 1.125rem;
         font-weight: bold;
         @include mix.media_query (var.$small) {
@@ -4934,6 +4937,7 @@ th, td {
     }
     &__name {
         margin-bottom: 20px;
+        text-align: center;
         font-size: .875rem;
         @include mix.media_query (var.$small) {
             margin-bottom: 10px;

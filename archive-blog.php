@@ -58,7 +58,8 @@
                 <img class="blog__img" alt="電球のイラスト画像"
                     src="<?php echo esc_url(get_theme_file_uri('img/blog@1x.png')); ?>"
                     srcset="<?php echo esc_url(get_theme_file_uri('img/blog@1x.png')); ?> 1x,
-                             <?php echo esc_url(get_theme_file_uri('img/blog@2x.png')); ?> 2x">
+                             <?php echo esc_url(get_theme_file_uri('img/blog@2x.png')); ?> 2x"
+                    loading="lazy">
             </div>
         </div>
         <div class="blog__contentsWrap">
@@ -84,13 +85,15 @@
                                 <img class="blog__thumbnail" alt="<?php the_title_attribute(); ?> のサムネイル"
                                     src="<?php echo esc_url(get_the_post_thumbnail_url(null, 'full')); ?>"
                                     srcset="<?php echo esc_attr($thumbnail_srcset); ?>"
-                                    sizes="(max-width: 768px) 100vw, 400px" />
+                                    sizes="(max-width: 768px) 100vw, 400px"
+                                    loading="lazy" />
                             <?php else : ?>
                                 <img class="blog__thumbnail" alt="サムネイルなし"
                                     src="<?php echo esc_url(get_theme_file_uri('img/no_image@1x.png')); ?>"
                                     srcset="<?php echo esc_url(get_theme_file_uri('img/no_image@1x.png')); ?> 1x,
                                         <?php echo esc_url(get_theme_file_uri('img/no_image@2x.png')); ?> 2x"
-                                    sizes="(max-width: 768px) 100vw, 400px" />
+                                    sizes="(max-width: 768px) 100vw, 400px"
+                                    loading="lazy" />
                             <?php endif; ?>
                         </div>
                         <div class="blog__cardTextInner">

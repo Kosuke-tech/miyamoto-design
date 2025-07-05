@@ -11,10 +11,11 @@
             </p>
         </div>
         <div class="thanks__imgWrap">
-            <img class="thanks__img" alt="お辞儀をしている男性のイラスト画像"
-                src="<?php echo esc_url(get_theme_file_uri('img/thanks@1x.png')); ?>"
-                srcset="<?php echo esc_url(get_theme_file_uri('img/thanks@1x.png')); ?> 1x,
-                    <?php echo esc_url(get_theme_file_uri('img/thanks@2x.png')); ?> 2x">
+                    <img class="thanks__img" alt="お辞儀をしている男性のイラスト画像"
+            src="<?php echo esc_url(get_theme_file_uri('img/thanks@1x.png')); ?>"
+            srcset="<?php echo esc_url(get_theme_file_uri('img/thanks@1x.png')); ?> 1x,
+            <?php echo esc_url(get_theme_file_uri('img/thanks@2x.png')); ?> 2x"
+            loading="lazy">
         </div>
     </div>
 

@@ -12,7 +12,8 @@
                     <img class="flow__img" alt="スマホを見ている女性の後ろ姿の画像"
                         src="<?php echo esc_url(get_theme_file_uri('img/flow1@1x.png')); ?>"
                         srcset="<?php echo esc_url(get_theme_file_uri('img/flow1@1x.png')); ?> 1x,
-                    <?php echo esc_url(get_theme_file_uri('img/flow1@2x.png')); ?> 2x">
+                    <?php echo esc_url(get_theme_file_uri('img/flow1@2x.png')); ?> 2x"
+                        loading="lazy">
                 </div>
                 <div class="flow__cardTextWrap">
                     <div class="flow__cardTextInner">
@@ -42,7 +43,8 @@
                     <img class="flow__img" alt="ホームページ制作で困っている男性のイラスト画像"
                         src="<?php echo esc_url(get_theme_file_uri('img/flow2@1x.png')); ?>"
                         srcset="<?php echo esc_url(get_theme_file_uri('img/flow2@1x.png')); ?> 1x,
-                    <?php echo esc_url(get_theme_file_uri('img/flow2@2x.png')); ?> 2x">
+                    <?php echo esc_url(get_theme_file_uri('img/flow2@2x.png')); ?> 2x"
+                        loading="lazy">
                 </div>
                 <div class="flow__cardTextWrap">
                     <div class="flow__cardTextInner">
@@ -67,7 +69,8 @@
                     <img class="flow__img flow__img3" alt="ホームページ制作で困っている男性のイラスト画像"
                         src="<?php echo esc_url(get_theme_file_uri('img/flow3@1x.png')); ?>"
                         srcset="<?php echo esc_url(get_theme_file_uri('img/flow3@1x.png')); ?> 1x,
-                    <?php echo esc_url(get_theme_file_uri('img/flow3@2x.png')); ?> 2x">
+                    <?php echo esc_url(get_theme_file_uri('img/flow3@2x.png')); ?> 2x"
+                        loading="lazy">
                 </div>
                 <div class="flow__cardTextWrap">
                     <div class="flow__cardTextInner">
@@ -92,7 +95,8 @@
                     <img class="flow__img" alt="ホームページ制作で困っている男性のイラスト画像"
                         src="<?php echo esc_url(get_theme_file_uri('img/flow4@1x.png')); ?>"
                         srcset="<?php echo esc_url(get_theme_file_uri('img/flow4@1x.png')); ?> 1x,
-                    <?php echo esc_url(get_theme_file_uri('img/flow4@2x.png')); ?> 2x">
+                    <?php echo esc_url(get_theme_file_uri('img/flow4@2x.png')); ?> 2x"
+                        loading="lazy">
                 </div>
                 <div class="flow__cardTextWrap">
                     <div class="flow__cardTextInner">
@@ -116,7 +120,8 @@
                     <img class="flow__img" alt="ホームページ制作で困っている男性のイラスト画像"
                         src="<?php echo esc_url(get_theme_file_uri('img/flow5@1x.png')); ?>"
                         srcset="<?php echo esc_url(get_theme_file_uri('img/flow5@1x.png')); ?> 1x,
-                    <?php echo esc_url(get_theme_file_uri('img/flow5@2x.png')); ?> 2x">
+                    <?php echo esc_url(get_theme_file_uri('img/flow5@2x.png')); ?> 2x"
+                        loading="lazy">
                 </div>
                 <div class="flow__cardTextWrap">
                     <div class="flow__cardTextInner">
@@ -139,7 +144,8 @@
                     <img class="flow__img flow__img6" alt="ホームページ制作で困っている男性のイラスト画像"
                         src="<?php echo esc_url(get_theme_file_uri('img/flow6@1x.png')); ?>"
                         srcset="<?php echo esc_url(get_theme_file_uri('img/flow6@1x.png')); ?> 1x,
-                    <?php echo esc_url(get_theme_file_uri('img/flow6@2x.png')); ?> 2x">
+                    <?php echo esc_url(get_theme_file_uri('img/flow6@2x.png')); ?> 2x"
+                        loading="lazy">
                 </div>
                 <div class="flow__cardTextWrap">
                     <div class="flow__cardTextInner">
@@ -162,7 +168,8 @@
                     <img class="flow__img" alt="ホームページ制作で困っている男性のイラスト画像"
                         src="<?php echo esc_url(get_theme_file_uri('img/flow7@1x.png')); ?>"
                         srcset="<?php echo esc_url(get_theme_file_uri('img/flow7@1x.png')); ?> 1x,
-                    <?php echo esc_url(get_theme_file_uri('img/flow7@2x.png')); ?> 2x">
+                    <?php echo esc_url(get_theme_file_uri('img/flow7@2x.png')); ?> 2x"
+                        loading="lazy">
                 </div>
                 <div class="flow__cardTextWrap">
                     <div class="flow__cardTextInner">

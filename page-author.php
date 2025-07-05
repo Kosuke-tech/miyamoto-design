@@ -23,7 +23,8 @@
                     <img class="cherishes__img" alt="ノートパソコンとタブレットを操作している画像"
                         src="<?php echo esc_url(get_theme_file_uri('img/cherishes1@1x.png')); ?>"
                         srcset="<?php echo esc_url(get_theme_file_uri('img/cherishes1@1x.png')); ?> 1x,
-                    <?php echo esc_url(get_theme_file_uri('img/cherishes1@2x.png')); ?> 2x">
+                    <?php echo esc_url(get_theme_file_uri('img/cherishes1@2x.png')); ?> 2x"
+                        loading="lazy">
                 </div>
                 <div class="cherishes__textWrap">
                     <h4 class="cherishes__title">事業者さまの想いや事業の理解</h4>
@@ -38,7 +39,8 @@
                     <img class="cherishes__img" alt="電球が描かれて黄色い付箋がコルクボードに貼られている画像"
                         src="<?php echo esc_url(get_theme_file_uri('img/cherishes2@1x.png')); ?>"
                         srcset="<?php echo esc_url(get_theme_file_uri('img/cherishes2@1x.png')); ?> 1x,
-                    <?php echo esc_url(get_theme_file_uri('img/cherishes2@2x.png')); ?> 2x">
+                    <?php echo esc_url(get_theme_file_uri('img/cherishes2@2x.png')); ?> 2x"
+                        loading="lazy">
                 </div>
                 <div class="cherishes__textWrap">
                     <h4 class="cherishes__title">伝えたい人に伝えたい情報を伝える</h4>
@@ -55,7 +57,8 @@
                     <img class="cherishes__img" alt="お金の入った花瓶に草が生えている画像"
                         src="<?php echo esc_url(get_theme_file_uri('img/cherishes3@1x.png')); ?>"
                         srcset="<?php echo esc_url(get_theme_file_uri('img/cherishes3@1x.png')); ?> 1x,
-                    <?php echo esc_url(get_theme_file_uri('img/cherishes3@2x.png')); ?> 2x">
+                    <?php echo esc_url(get_theme_file_uri('img/cherishes3@2x.png')); ?> 2x"
+                        loading="lazy">
                 </div>
                 <div class="cherishes__textWrap">
                     <h4 class="cherishes__title">成長するホームページ</h4>
@@ -81,7 +84,8 @@
                 <img class="profile__img" alt="ベンチに座っている男性の画像"
                     src="<?php echo esc_url(get_theme_file_uri('img/profile@1x.png')); ?>"
                     srcset="<?php echo esc_url(get_theme_file_uri('img/profile@1x.png')); ?> 1x,
-                    <?php echo esc_url(get_theme_file_uri('img/profile@2x.png')); ?> 2x">
+                    <?php echo esc_url(get_theme_file_uri('img/profile@2x.png')); ?> 2x"
+                    loading="lazy">
             </div>
             <div class="profile__textWrap">
                 <h3 class="profile__title">
@@ -114,7 +118,10 @@
             <dt>代表者</dt>
             <dd>宮本 皐佑</dd>
             <dt>所在地(レンタルオフィス)</dt>
-            <dd>準備中</dd>
+            <dd>
+                〒336-0017<br>
+                埼玉県さいたま市南区南浦和2-28-13-532
+            </dd>
             <dt>営業時間</dt>
             <dd>9:00 〜 18:00</dd>
             <dt>定休日</dt>

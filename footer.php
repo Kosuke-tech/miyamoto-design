@@ -4,9 +4,10 @@
     <div class="footer__wrapper blContainer">
         <a class="footer__logoWrap">
             <img class="footer__logo" alt="フッターのロゴ"
-                src="<?php echo esc_url(get_theme_file_uri('img/logo_horizontal@1x.png')); ?>"
-                srcset="<?php echo esc_url(get_theme_file_uri('img/logo_horizontal@1x.png')); ?> 1x,
-            <?php echo esc_url(get_theme_file_uri('img/logo_horizontal@2x.png')); ?> 2x">
+                src="<?php echo esc_url(get_theme_file_uri('img/logo2@1x.png')); ?>"
+                srcset="<?php echo esc_url(get_theme_file_uri('img/logo2@1x.png')); ?> 1x,
+            <?php echo esc_url(get_theme_file_uri('img/logo2@2x.png')); ?> 2x"
+                loading="lazy">
         </a>
         <ul class="footer__listWrap">
             <li class="footer__item">
