@@ -3,18 +3,18 @@
 <nav class="subMenu">
     <ul class="subMenu__list blContainer">
         <li class="subMenu__item">
-            <a class="subMenu__link" href="">制作者プロフィール</a>
+            <a class="subMenu__link" href="<?php echo esc_url(home_url('/author/#target_cherishes')); ?>">大切にしていること</a>
         </li>
         <li class="subMenu__item">
-            <a class="subMenu__link" href="">大切にしていること</a>
+            <a class="subMenu__link" href="<?php echo esc_url(home_url('/author/#target_profile')); ?>">制作者プロフィール</a>
         </li>
         <li class="subMenu__item">
-            <a class="subMenu__link" href="">Miyamoto design <br>概要</a>
+            <a class="subMenu__link" href="<?php echo esc_url(home_url('/author/#target_company')); ?>">Miyamoto design <br>概要</a>
         </li>
     </ul>
 </nav>
 
-<section class="cherishes">
+<section class="cherishes" id="target_cherishes">
     <div class="cherishes__wrapper blContainer">
         <h3 class="cherishes__heading">大切にしていること</h3>
         <div class="cherishes__contentsWrap">
@@ -73,7 +73,7 @@
     </div>
 </section>
 
-<section class="profile">
+<section class="profile" id="target_profile">
     <div class="profile__wrapper blContainer">
         <div class="profile__headingWrap heading">
             <h2 class="profile__headingEn heading__en">Profile</h2>
@@ -109,7 +109,7 @@
     </div>
 </section>
 
-<section class="company">
+<section class="company" id="target_company">
     <div class="company__wrapper blContainer">
         <h3 class="company__title">Miyamoto design 概要</h3>
         <dl class="company__dl">

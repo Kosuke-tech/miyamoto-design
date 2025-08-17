@@ -40,7 +40,7 @@
                         <?php if (has_post_thumbnail()) {; ?>
                             <?php the_post_thumbnail('blog'); ?>
                         <?php } else {; ?>
-                            <img class="singleBlog__img" alt="サムネルの投稿がない場合に表示する画像"
+                            <img class="singleBlog__img" alt="サムネイルの投稿がない場合に表示する画像"
                                 src="<?php echo esc_url(get_theme_file_uri('img/no_image@1x.png')); ?>"
                                 srcset="<?php echo esc_url(get_theme_file_uri('img/no_image@1x.png')); ?> 1x,
                     <?php echo esc_url(get_theme_file_uri('img/no_image@2x.png')); ?> 2x"
@@ -49,7 +49,9 @@
                     </div>
 
 
-                    <div class="singleBlog__content"><?php the_content(); ?></div>
+                    <div class="singleBlog__content">
+                        <?php the_content(); ?>
+                    </div>
                 </div>
             <?php endwhile; ?>
         <?php endif; ?>

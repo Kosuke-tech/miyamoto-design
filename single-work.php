@@ -55,7 +55,6 @@
                                     loading="lazy">
                             <?php }; ?>
                         </div>
-
                     </div>
                     <div class="singleWork__content"><?php the_content(); ?></div>
                 </div>

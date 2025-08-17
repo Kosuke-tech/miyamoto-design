@@ -3702,7 +3702,7 @@ th, td {
         text-align: center;
         margin-bottom: 80px;
         font-size: 2rem;
-        font-weight: 400;
+        font-weight: bold;
         position: relative;
         &::after {
             content: '';
@@ -3769,7 +3769,6 @@ th, td {
     &__content > h2 {
         margin-bottom: 30px;
         padding: .5rem 2rem .5rem 2em;
-        // border-radius: 20px;
         font-size: 1.6875rem;
         font-weight: bold;
         color: var(--white);  
@@ -3783,11 +3782,10 @@ th, td {
             border: none;
             border-bottom: solid 15px transparent;
             border-right: solid 20px rgb(149, 158, 155);
-
         }
     }
     &__content > h3 {
-        width: 90%;
+        width: 95%;
         margin-right: auto;
         margin-left: auto;
         margin-bottom: 30px;
@@ -3796,18 +3794,36 @@ th, td {
         border-bottom: 3px solid var(--main_green);
         border-image: linear-gradient(to left, #6CB4EE, #8BD8BD) 1;
         color: var(--main_text);
+        @include mix.media_query (var.$medium) {
+            font-size: 1.0625rem;
+        }
+    }
+    &__content > h4 {
+        width: 90%;
+        text-align: left;
+        font-size: 1rem;
+        font-weight: 400;
+        margin: 0 auto 10px;
+        border-bottom: 1px solid var(--main_blue);
+        @include mix.media_query (var.$medium) {
+            font-size: .9375rem;
+        }
     }
     &__content > p,
+    &__content > a,
     &__content > figure,
     &__content > ul,
     &__content > ol,
     &__content > li,
-    &__content > blockquote,
-    &__content > a
-     {
-        width: 90%;
+    &__content > span,
+    &__content > div {
+        width: 87%;
         margin-right: auto;
         margin-left: auto;
+        font-size: .9375rem;
+        @include mix.media_query (var.$medium) {
+            font-size: .875rem;
+        }
     }
     &__content > a,
     &__content >p >a {
@@ -3815,6 +3831,16 @@ th, td {
         text-decoration: underline;
     }
 }
+
+
+// list-styleがどうしても効かない。
+
+// ul.wp-block-list {
+//     list-style: disc !important;
+// }
+// ol.wp-block-list {
+//     list-style: decimal !important;
+// }
 
 /***************************************************
     制作実績一覧
@@ -4039,6 +4065,7 @@ th, td {
         border-radius: 20px;
         font-size: 1.6875rem;
         font-weight: bold;
+        line-height: 1.5;
         color: var(--white);
         background: linear-gradient(to right, #6CB4EE, #8BD8BD);
         position: relative;
@@ -4053,11 +4080,13 @@ th, td {
             left: 20px;
             transform: translateY(-50%);
             background: var(--white);
-
+        }
+        @include mix.media_query (var.$medium) {
+            font-size: 1.5rem;
         }
     }
     &__content > h3 {
-        width: 90%;
+        width: 95%;
         margin-right: auto;
         margin-left: auto;
         margin-bottom: 30px;
@@ -4066,18 +4095,32 @@ th, td {
         border-bottom: 3px solid var(--main_green);
         border-image: linear-gradient(to right, #6CB4EE, #8BD8BD) 1;
         color: var(--main_text);
+        @include mix.media_query (var.$medium) {
+            font-size: 1.065rem;
+        }
+    }
+    &__content > h4 {
+        width: 90%;
+        font-size: 1rem;
+        @include mix.media_query (var.$medium) {
+            font-size: .9375;
+        }
     }
     &__content > p,
+    &__content > a,
     &__content > figure,
     &__content > ul,
     &__content > ol,
     &__content > li,
-    &__content > blockquote,
-    &__content > a
-     {
-        width: 90%;
+    &__content > span,
+    &__content > div{
+        width: 80%;
         margin-right: auto;
         margin-left: auto;
+        font-size: .937rem;
+        @include mix.media_query (var.$medium) {
+            font-size: .875rem;
+        }
     }
     &__content > a,
     &__content >p >a {

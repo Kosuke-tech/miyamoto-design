@@ -6,13 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" sizes="32x32" href="<?php echo get_theme_file_uri('img/favicon@2x.png'); ?>">
     <link rel="icon" type="image/png" sizes="16x16" href="<?php echo get_theme_file_uri('img/favicon@1x.png'); ?>">
-    <title>
-        <?php
-        wp_title('|', true, 'right');
-        bloginfo('name');
-        ?>
-    </title>
-    <meta name="description" content="埼玉県越谷市が拠点の売上に貢献するWeb制作事務所。SEO対策、サイトの運用まで行います。制作後のサービスはSEOに特化して行っており、Googleへの最適化を行い、検索順位を上げることで売上に貢献します。">
     <!-- Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-5GVZYPY291"></script>
 <script src="https://analytics.ahrefs.com/analytics.js" data-key="sXLW5xp4QirHTtD6GKRaQg" async></script>
