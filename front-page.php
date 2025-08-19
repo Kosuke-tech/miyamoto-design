@@ -4,7 +4,7 @@
         <div class="keyvisual__contentsWrap">
             <h1 class="keyvisual__catch" id="keyvisual__catch">
                 事業の歩みに寄り添いたい<br>
-                あなたの会社のWeb担当者
+                士業事務所専門の外部Web担当者
             </h1>
             <div class="keyvisual__imgWrapSp" id="keyvisual__imgWrapSp">
                 <img class="keyvisual__img" alt="キービジュアルのイラスト画像"
