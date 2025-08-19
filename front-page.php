@@ -4,7 +4,7 @@
         <div class="keyvisual__contentsWrap">
             <h1 class="keyvisual__catch" id="keyvisual__catch">
                 事業の歩みに寄り添いたい<br>
-                士業事務所専門の外部Web担当者
+                "士業事務所専門"の外部Web担当者
             </h1>
             <div class="keyvisual__imgWrapSp" id="keyvisual__imgWrapSp">
                 <img class="keyvisual__img" alt="キービジュアルのイラスト画像"
@@ -14,10 +14,10 @@
                     loading="lazy">
             </div>
             <p class="keyvisual__text" id="keyvisual__text">
-                これまでECメーカーでの営業や事業の企画立案、マーケティングなどの実務に従事してきました。<br>
+                これまでECメーカーでの営業やマーケティング、事業の企画立案、M&A事業会社で事業承継専門のコンサルティングに従事してきました。<br>
                 これまでの経験で培った視点から、ただサイトを作るだけでなく、伝えたい人にちゃんと目的が伝わり、サイトを訪れたユーザーが使いやすい設計を構築します。<br>
-                制作後の運用代行やサイトの更新、サポートなども行っています。<br>
-                また事業者さまのお困りごとに合わせて、SNSの運用やサイトの更新の代行なども行っておりますので、困った時のWeb担当者として使っていただければ幸いです。
+                また作って終わりではなく、サイト制作後、サイトを活用して売上や採用に活かしていく施策やサポートも準備しております。<br>
+                事業者さまのお困りごとに合わせて、SNSの運用やサイトの更新の代行なども行っておりますので、困った時のWeb担当者として使っていただければ幸いです。
             </p>
             <a class="keyvisual__btn btn3 " id="keyvisual__btn" href="<?php echo esc_url(home_url('/#target_price')); ?>">
                 <span class="keyvisual__btnText btn3__text">プラン一覧</span>
