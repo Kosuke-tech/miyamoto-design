@@ -44,7 +44,7 @@
                         <a class="header__navLink" href="<?php echo esc_url(home_url('/price')); ?>">制作料金・プラン</a>
                     </li>
                     <li class="header__navItem">
-                        <a class="header__navLink" href="<?php echo esc_url(home_url('/zennage')); ?>">ゼンナゲ</a>
+                        <a class="header__navLink" href="<?php echo esc_url(home_url('/zennage')); ?>">運用プラン</a>
                     </li>
                     <li class="header__navItem">
                         <a class="header__navLink" href="<?php echo esc_url(home_url('/flow')); ?>">制作の流れ</a>
@@ -93,7 +93,7 @@
                             <a class="spMenu__link" href="<?php echo esc_url(home_url('/price')); ?>">制作料金・プラン</a>
                         </li>
                         <li class="spMenu__item">
-                            <a class="spMenu__link" href="<?php echo esc_url(home_url('/zennage')); ?>">ゼンナゲ</a>
+                            <a class="spMenu__link" href="<?php echo esc_url(home_url('/zennage')); ?>">運用プラン</a>
                         </li>
                         <li class="spMenu__item">
                             <a class="spMenu__link" href="<?php echo esc_url(home_url('/flow')); ?>">制作の流れ</a>

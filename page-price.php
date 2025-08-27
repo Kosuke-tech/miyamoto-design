@@ -6,7 +6,7 @@
             <a class="subMenu__link" href="<?php echo esc_url(home_url('/price/#target_page-recommend')); ?>">こんな方におすすめ</a>
         </li>
         <li class="subMenu__item">
-            <a class="subMenu__link" href="<?php echo esc_url(home_url('/price/#target_page-agency')); ?>">丸投げ運用プラン<br>ゼンナゲ</a>
+            <a class="subMenu__link" href="<?php echo esc_url(home_url('/price/#target_page-agency')); ?>">運用プラン</a>
         </li>
         <li class="subMenu__item">
             <a class="subMenu__link" href="<?php echo esc_url(home_url('/price/#target_page-ask')); ?>">Miyamoto designに<br>頼むメリット</a>
@@ -66,7 +66,9 @@
                 </div>
                 <div class="service__underTextWrap">
                     <p class="service__text2">
-                        ユーザーの視点にたって、ユーザーの気持ちになりデザインをしています。<br class="service__break1">ボタンの位置など一つとってもサイズ、見た目、クリックできると視覚的にわかるようになっているか、<br class="service__break1">など考えることはたくさんあります。
+                        ユーザーの視点にたって、ユーザーの気持ちになりデザインをしています。
+                        <br class="service__break1">ボタンの位置など一つとってもサイズ、見た目、クリックできると視覚的にわかるようになっているか、
+                        <br class="service__break1">など考えることはたくさんあります。
                     </p>
                     <p class="service__text3">
                         余白を含めたサイト内にあるもの全てに意味があるデザインをすることを心掛けております。
@@ -157,9 +159,9 @@
                 <p class="agency__catch">こんなことで、<br>お困りごとないですか？</p>
                 <div class="agency__imgWrap">
                     <img class="agency__img" alt="パソコンについて、わからず焦っている男性のイラスト画像"
-                        src="<?php echo esc_url(get_theme_file_uri('img/zennage@1x.png')); ?>"
-                        srcset="<?php echo esc_url(get_theme_file_uri('img/zennage@1x.png')); ?> 1x,
-            <?php echo esc_url(get_theme_file_uri('img/zennage@2x.png')); ?> 2x"
+                        src="<?php echo esc_url(get_theme_file_uri('img/trouble@1x.png')); ?>"
+                        srcset="<?php echo esc_url(get_theme_file_uri('img/trouble@1x.png')); ?> 1x,
+            <?php echo esc_url(get_theme_file_uri('img/trouble@2x.png')); ?> 2x"
                         loading="lazy">
                 </div>
             </div>
@@ -171,7 +173,7 @@
                     <li class="agency__item">ホームページやSNSから集客や予約が取れるよう改善して欲しい</li>
                 </ul>
                 <a class="agency__btn btn4" href="<?php echo esc_url(home_url('/zennage/#target_page-operation')) ?>">
-                    <span class="agency__btnText btn4__text">運用代行プラン ゼンナゲ</span>
+                    <span class="agency__btnText btn4__text">運用代行プランを見る</span>
                     <i class="agency__btnIcon btn4__icon fa-solid fa-right-long"></i>
                 </a>
             </div>
@@ -307,15 +309,15 @@
     </div>
 </section>
 
-<section class="price pagePrice">
-    <div class="price__wrapper blContainer" id="target_page-price">
+<section class="price">
+    <div class="price__wrapper blContainer" id="target_price">
         <div class="price__headingWrap heading">
             <h2 class="price__headingEn heading__en">Price</h2>
             <h2 class="price__headingJp heading__jp">制作料金・プラン</h2>
         </div>
         <div class="price__textImgWrap">
             <p class="price__text">
-                ホームページ制作の目安料金となります。初回の無料面談の後、お見積書をお渡ししております。<br>
+                ホームページ制作の目安料金となります。<br class="price__break1">初回の無料面談の後、お見積書をお渡ししております。<br>
                 詳しくはお気軽にお問い合わせフォームからご相談ください。
             </p>
             <div class="price__imgWrap">
@@ -327,7 +329,8 @@
             </div>
         </div>
         <div class="table-wrapper">
-            <div class="table" id="target_page-price-table">
+            <div class="table">
+
                 <table class="table__container">
                     <thead>
                         <tr>
@@ -339,74 +342,75 @@
                                     loading="lazy">
                             </th>
                             <th class="table__headerSell1">
-                                名刺代わりの簡易的なサイト<br><span class="table__planName">ライトプラン</span>
+                                お客さまの信頼を勝ち取る！<br><span class="table__planName">ブランディングサイト制作</span>
                             </th>
                             <th class="table__headerSell2">
-                <div class="table__popularity">人気</div>
-
-                                ちゃんと伝わる企業サイト<br><span class="table__planName">スタンダードプラン</span>
+                                <span class="table__popularity">人気</span>
+                                FAXや郵便で送っていた情報がWebで完結！<br><span class="table__planName">法改正速報サイト制作</span>
                             </th>
-                            <th class="table__headerSell3 border2">長期運用で集客を目的とした企業サイト<br><span class="table__planName">カスタムプラン</span></th>
+                            <th class="table__headerSell3 border2">
+                            信頼に加えて採用にも力を入れたい！<br><span class="table__planName">採用型リクルートサイト制作</span>
+                            </th>
                         </tr>
                     </thead>
-                                     <tbody>
+                    <tbody>
                         <tr>
                             <td>目的</td>
                             <td class="table__purpose">
-                                <span class="table__purposeBold">会社の名刺代わりの簡易的なサイト</span><br>事業の顔となるサイトが欲しい事業者さまにおすすめ
+                                <span class="table__purposeBold">事業や集客の基盤となるサイト</span><br>事業の顔となるサイトが欲しい事業者さまにおすすめ
                             </td>
                             <td class="table__purpose">
-                                <span class="table__purposeBold">しっかりとした企業サイト</span><br>しっかり企業サイトを作りたい事業者さまにおすすめ
+                                <span class="table__purposeBold">お客さまへの情報提供がwebで完結</span><br>既存お客さまとの関係を深めたい先生におすすめ
                             </td>
                             <td class="table__purpose">
-                                <span class="table__purposeBold">長期視点で集客を目的としたサイト</span><br>集客もしたいという事業者さまにおすすめ
+                                <span class="table__purposeBold">集客に加え採用も考慮したサイト</span><br>紹介だけでなくWebで採用もしたい方におすすめ
                             </td>
                         </tr>
                         <tr>
                             <td>料金目安</td>
                             <td class="table__price">
-                                <span class="table__priceLabel1">初期費用20万円ほど</span>
+                                <span class="table__priceLabel1">初期費用36万円ほど</span>
                                 <div class="table__discountWrap1">
-                                    運用代行ご利用の場合、<span class="table__discount">17万円</span>に減額
+                                    運用代行ご利用の場合、<span class="table__discount">33万円</span>に減額
                                 </div>
                             </td>
                             <td class="table__price">
                                 <span class="table__priceLabel2">
-                                    初期費用35万円ほど</span>
+                                    初期費用38万円ほど</span>
                                 <div class="table__discountWrap2">
-                                    運用代行ご利用の場合、<span class="table__discount">28万円</span>に減額
+                                    運用代行ご利用の場合、<span class="table__discount">35万円</span>に減額
                                 </div>
                             </td>
                             <td class="table__price">
-                                <span class="table__priceLabel3">初期費用51万円ほど</span>
+                                <span class="table__priceLabel3">初期費用42万円ほど</span>
                                 <div class="table__discountWrap3">
-                                    運用代行ご利用の場合、<span class="table__discount">48万円</span>に減額
+                                    運用代行ご利用の場合、<span class="table__discount">39万円</span>に減額
                                 </div>
                             </td>
                         </tr>
                         <tr>
                             <td>全体のページ数</td>
-                            <td>5ページほど</td>
-                            <td>12ページほど</td>
-                            <td>20ページほど</td>
+                            <td>6ページほど</td>
+                            <td>7ページほど</td>
+                            <td>7ページほど</td>
                         </tr>
                         <tr>
                             <td>お知らせなどの更新機能</td>
                             <td>1件</td>
-                            <td>2件</td>
-                            <td>3件</td>
+                            <td>2件まで</td>
+                            <td>1件</td>
                         </tr>
                         <tr>
                             <td>サイトのテキストや文言</td>
                             <td>お客さまにてご用意</td>
-                            <td>ヒアリング ~ 作成まで代行</td>
+                            <td>お客さまにてご用意</td>
                             <td>ヒアリング ~ 作成まで代行</td>
                         </tr>
                         <tr>
                             <td>デザインのご提案</td>
                             <td>1案</td>
                             <td>2案</td>
-                            <td>3案</td>
+                            <td>2案</td>
                         </tr>
                         <tr>
                             <td>スマホ・タブレット対応</td>
@@ -416,28 +420,30 @@
                         </tr>
                         <tr>
                             <td>お問い合わせフォーム</td>
-                            <td>×</td>
+                            <td>◎</td>
                             <td>◎</td>
                             <td>◎</td>
                         </tr>
                         <tr>
                             <td class="border3">内部SEO対策<br>(検索エンジン最適化)</td>
-                            <td>×</td>
-                            <td>○</td>
+                            <td>△</td>
+                            <td>◎</td>
                             <td class="border4">◎</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
         </div>
-
         <div class="price__annotationWrap">
             <p class="price__annotation">
-                ※ 別途サイト内で使用する素材の撮影や素材購入がある場合は、別途料金をいただく場合がございます。
+                ※1 詳細は、ご提案時に資料を踏まえながらご説明させていただきます。<br>
             </p>
             <p class="price__annotation">
-                ※ サイトの公開にかかる費用(ドメイン・サーバー契約)にかかる初期費用および月額料金は、お客さまにご負担をお願いしております。<br>
-                　(ドメインやサーバーのプランにもよりますが、年間で約5000円から1万円に収まることが多いです。)
+                ※2 別途サイト内で使用する素材の撮影や素材購入がある場合は、別途料金をいただく場合がございます。
+            </p>
+            <p class="price__annotation">
+                ※3 サイトの公開にかかる費用(ドメイン・サーバー契約)や初期費用および月額料金は、お客さまにご負担をお願いしております。<br>
+                　(あくまで参考程度でドメインやサーバーの契約プランにもよりますが、年間で約5000円から1万円に収まることが多いです。)
             </p>
         </div>
         <div class="price__btnWrap">

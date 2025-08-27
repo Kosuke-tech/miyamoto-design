@@ -1051,21 +1051,6 @@ body {
     display: block;
   }
 }
-.issue__imgWrapper {
-  display: flex;
-  align-items: center;
-}
-@media screen and (max-width: 575px) {
-  .issue__imgWrapper {
-    display: flex;
-    justify-content: space-evenly;
-  }
-}
-@media screen and (max-width: 575px) {
-  .issue__imgWrap {
-    width: 30%;
-  }
-}
 .issue__img {
   width: 100%;
   height: 100%;
@@ -1247,11 +1232,7 @@ body {
 .recommend__imgWrap {
   display: grid;
   place-content: center;
-  width: 250px;
-  height: 250px;
   margin-bottom: 30px;
-  border-radius: 50%;
-  background: var(--main_green);
 }
 .recommend__img {
   -o-object-fit: cover;
@@ -1353,9 +1334,10 @@ body {
 }
 .agency__catch {
   position: absolute;
-  top: 30px;
-  right: 50px;
-  font-size: 0.875rem;
+  bottom: 10px;
+  left: 180px;
+  font-size: 1rem;
+  color: var(--black);
 }
 @media screen and (max-width: 1200px) {
   .agency__catch {
@@ -1365,7 +1347,12 @@ body {
 @media screen and (max-width: 767px) {
   .agency__imgWrap {
     width: 80%;
+    margin: 0 auto;
   }
+}
+.agency__img {
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .agency__subHeading {
   font-size: 1.375rem;
@@ -1480,7 +1467,7 @@ body {
   justify-content: center;
   gap: 30px;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1200px) {
   .ask__inner {
     flex-wrap: wrap;
   }
@@ -1505,7 +1492,7 @@ body {
   border-bottom: 1px solid var(--black);
   padding-bottom: 10px;
   line-height: 1.2;
-  font-size: 1rem;
+  font-size: 0.9375rem;
 }
 .ask__text {
   text-align: center;
@@ -1750,7 +1737,7 @@ body {
 }
 @media screen and (max-width: 575px) {
   .price__imgWrap {
-    width: 100px;
+    width: 130px;
     position: absolute;
     top: 150px;
     right: 30px;
@@ -1866,7 +1853,7 @@ body {
 .table__popularity {
   padding: 10px 15px;
   position: absolute;
-  top: 10px;
+  top: -10px;
   left: 37px;
   transform: translate(-50%, -50%);
   z-index: 10;
@@ -2067,6 +2054,7 @@ th, td {
   }
 }
 .work__imgWrap {
+  width: 170px;
   margin-top: -30px;
   margin-left: auto;
   margin-right: 50px;
@@ -2283,26 +2271,6 @@ th, td {
 @media screen and (max-width: 1024px) {
   .inquiry__lineBtnSp {
     display: block;
-  }
-}
-.inquiry__imgWrap {
-  width: 200px;
-  position: absolute;
-  top: 210px;
-  right: 100px;
-}
-@media screen and (max-width: 1200px) {
-  .inquiry__imgWrap {
-    width: 130px;
-    top: 280px;
-    right: 20px;
-  }
-}
-@media screen and (max-width: 767px) {
-  .inquiry__imgWrap {
-    width: 100px;
-    top: 30px;
-    right: 20px;
   }
 }
 
@@ -2535,7 +2503,7 @@ th, td {
 .service__contentsWrap {
   display: flex;
   justify-content: center;
-  gap: 150px;
+  gap: 70px;
 }
 @media screen and (max-width: 1024px) {
   .service__contentsWrap {
@@ -3086,7 +3054,9 @@ th, td {
   padding-bottom: 100px;
 }
 .zennagePrice__catch {
+  margin-bottom: 100px;
   text-align: center;
+  line-height: 1.3;
   font-size: 2rem;
   font-weight: bold;
 }
@@ -3106,8 +3076,8 @@ th, td {
 }
 .zennagePrice__wappenWrap {
   position: absolute;
-  top: -10%;
-  right: -5%;
+  top: -12%;
+  right: -12%;
   width: 6rem;
   height: 6rem;
   display: flex;
@@ -3119,9 +3089,16 @@ th, td {
   text-align: center;
   pointer-events: none;
 }
+@media screen and (max-width: 1024px) {
+  .zennagePrice__wappenWrap {
+    top: -5%;
+    right: -10%;
+  }
+}
 @media screen and (max-width: 480px) {
   .zennagePrice__wappenWrap {
-    right: -10%;
+    top: 5%;
+    right: -12%;
   }
 }
 .zennagePrice__wappen {
@@ -3155,9 +3132,9 @@ th, td {
 }
 .zennagePrice__cardWrap {
   display: grid;
-  grid-template-columns: 400px 400px 400px;
+  grid-template-columns: 32% 32% 32%;
   justify-content: center;
-  gap: 50px;
+  gap: 30px;
   margin-top: 50px;
   margin-bottom: 30px;
 }
@@ -3180,12 +3157,23 @@ th, td {
 .zennagePrice__cardCatchWrap {
   border-radius: 20px 20px 0px 0px;
 }
+.zennagePrice__cardCatchHeading {
+  padding-top: 10px;
+  display: block;
+  text-align: center;
+  font-size: 0.8125rem;
+  background: linear-gradient(to left, #6CB4EE, #8BD8BD); /* グラデーション */
+  -webkit-background-clip: text; /* 文字で切り抜く（Safari, Chrome） */
+  -webkit-text-fill-color: transparent; /* 透明な文字で背景を表示（Safari, Chrome） */
+  background-clip: text; /* 文字で切り抜く（Firefox） */
+  color: transparent;
+}
 .zennagePrice__cardCatch {
-  padding-top: 5px;
   padding-bottom: 5px;
   text-align: center;
   font-size: 1.25rem;
   font-weight: bold;
+  color: var(--black);
 }
 .zennagePrice__cardTextWrap {
   padding: 10px;
@@ -3233,9 +3221,24 @@ th, td {
   font-size: 1.125rem;
   color: var(--black);
 }
-.zennagePrice__count {
-  margin-bottom: 10px;
-  font-size: 0.875rem;
+.zennagePrice__cardInner {
+  width: 90%;
+  margin: 0 auto;
+}
+.zennagePrice__goalWrap {
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  background: #FFFCE8;
+}
+.zennagePrice__goalTitle {
+  font-size: 1.125rem;
+  font-weight: bold;
+  background: linear-gradient(to left, #6CB4EE, #8BD8BD); /* グラデーション */
+  -webkit-background-clip: text; /* 文字で切り抜く（Safari, Chrome） */
+  -webkit-text-fill-color: transparent; /* 透明な文字で背景を表示（Safari, Chrome） */
+  background-clip: text; /* 文字で切り抜く（Firefox） */
+  color: transparent;
 }
 .zennagePrice__descriptionWrap {
   width: 300px;
@@ -3251,18 +3254,14 @@ th, td {
     width: auto;
   }
 }
-.zennagePrice__descriptionCatch {
+.zennagePrice__descriptionCatch1, .zennagePrice__descriptionCatch2 {
   padding-top: 10px;
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-weight: bold;
-  background: linear-gradient(to left, #6CB4EE, #8BD8BD); /* グラデーション */
-  -webkit-background-clip: text; /* 文字で切り抜く（Safari, Chrome） */
-  -webkit-text-fill-color: transparent; /* 透明な文字で背景を表示（Safari, Chrome） */
-  background-clip: text; /* 文字で切り抜く（Firefox） */
-  color: transparent;
+  color: var(--main_text);
 }
 .zennagePrice__descriptionList {
-  width: 210px;
+  width: 90%;
   margin-right: auto;
   margin-left: auto;
   padding: 10px;
@@ -3290,18 +3289,26 @@ th, td {
   }
 }
 .zennagePrice__underDescriptionWrap {
-  width: 710px;
-  margin-right: auto;
-  margin-left: auto;
+  width: 90%;
+  margin: 0 auto;
 }
 @media screen and (max-width: 1024px) {
   .zennagePrice__underDescriptionWrap {
     width: 80%;
   }
 }
+.zennagePrice__underDescriptionInner {
+  width: 750px;
+  margin: 0 auto;
+}
 .zennagePrice__underDescription {
+  width: 100%;
   text-align: left;
   font-size: 0.875rem;
+  margin-bottom: 20px;
+}
+.zennagePrice__underDescription:last-of-type {
+  margin-bottom: 0;
 }
 @media screen and (max-width: 575px) {
   .zennagePrice__underDescription {
@@ -3315,20 +3322,15 @@ th, td {
 }
 
 .cardTitleBg1 {
-  background: #E8E8E8;
+  background: #f3fffd;
 }
 
 .cardTitleBg2 {
-  background: #DDEDFF;
-}
-
-.cardTitleBg3 {
-  background: #BECCFF;
-  color: var(--white);
+  background: #eff6ff;
 }
 
 .cardTitleBg4 {
-  background: #001FAB;
+  background: #f3fff6;
   color: var(--white);
 }
 
@@ -3342,31 +3344,26 @@ th, td {
   padding-top: 50px;
   padding-bottom: 100px;
 }
-.jobDescription__overWrap {
-  margin-bottom: 50px;
+.jobDescription__catch {
+  margin-bottom: 100px;
+  text-align: center;
+  line-height: 1.3;
+  font-size: 2rem;
+  font-weight: bold;
 }
-.jobDescription__headingWrap {
-  margin-bottom: 50px;
-}
-@media screen and (max-width: 767px) {
-  .jobDescription__headingWrap {
-    flex-direction: column;
-    align-items: flex-start;
+@media screen and (max-width: 1024px) {
+  .jobDescription__catch {
+    font-size: 1.5rem;
   }
 }
 @media screen and (max-width: 575px) {
-  .jobDescription__headingEn {
-    font-size: 3.5rem;
-  }
-}
-@media screen and (max-width: 480px) {
-  .jobDescription__headingEn {
-    font-size: 2.875rem;
-    margin-right: 0;
+  .jobDescription__catch {
+    font-size: 1.125rem;
   }
 }
 .jobDescription__description {
-  margin-left: 50px;
+  margin-bottom: 30px;
+  text-align: center;
   font-size: 0.875rem;
 }
 @media screen and (max-width: 575px) {
@@ -3491,6 +3488,108 @@ th, td {
 @media screen and (max-width: 1024px) {
   .jobDescription__break1 {
     display: none;
+  }
+}
+
+/*----------------------------------------
+    ハイクオリティコンサルティング
+----------------------------------------*/
+.highQuality__catchWrap {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+.highQuality__catch {
+  text-align: center;
+  line-height: 1.3;
+  font-size: 2rem;
+  font-weight: bold;
+}
+@media screen and (max-width: 1024px) {
+  .highQuality__catch {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 575px) {
+  .highQuality__catch {
+    font-size: 1.125rem;
+  }
+}
+.highQuality__cardWrap {
+  width: 95%;
+  margin: 0 auto 50px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+@media screen and (max-width: 1024px) {
+  .highQuality__cardWrap {
+    flex-wrap: wrap;
+  }
+}
+.highQuality__card {
+  border-radius: 10px;
+  background: #3A3A5A;
+}
+.highQuality__cardInner {
+  height: 100%;
+  padding: 10px 15px;
+  display: flex;
+  flex-direction: column;
+}
+.highQuality__cardCatch {
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 0.9375rem;
+  font-weight: bold;
+  color: #FFED4E;
+}
+.highQuality__cardTitle {
+  margin-bottom: 10px;
+  text-align: center;
+  line-height: 1.3;
+  font-size: 1.125rem;
+  font-weight: bold;
+  color: var(--white);
+}
+.highQuality__price {
+  text-align: center;
+  font-size: 0.9375rem;
+  color: #FFED4E;
+}
+.highQuality__cardTitleWrap, .highQuality__goalWrap {
+  margin-bottom: 20px;
+}
+.highQuality__goalTitle, .highQuality__operationTitle {
+  margin-bottom: 10px;
+  border-bottom: 2px solid #FFED4E;
+  font-size: 1rem;
+  color: #FFD700;
+}
+.highQuality__goal {
+  font-size: 0.8125rem;
+  color: var(--white);
+}
+.highQuality__operationList {
+  list-style: circle;
+}
+.highQuality__operationItem {
+  padding-left: 3%;
+  list-style: disc inside;
+  font-size: 0.9375rem;
+  color: var(--white);
+}
+.highQuality__textWrap {
+  width: 90%;
+  margin: 0 auto 100px;
+}
+.highQuality__text {
+  display: flex;
+  justify-content: center;
+  font-size: 0.9375rem;
+}
+@media screen and (max-width: 1024px) {
+  .highQuality__text {
+    font-size: 0.8125rem;
   }
 }
 

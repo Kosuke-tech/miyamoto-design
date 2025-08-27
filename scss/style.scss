@@ -587,19 +587,6 @@ body {
 
         }
     }
-    &__imgWrapper {
-        display: flex;
-        align-items: center;
-        @include mix.media_query (var.$small) {
-            display: flex;
-            justify-content: space-evenly;
-        }
-    }
-    &__imgWrap {
-        @include mix.media_query (var.$small) {
-            width: 30%;
-        }
-    }
     &__img {
         width: 100%;
         height: 100%;
@@ -763,11 +750,11 @@ body {
     &__imgWrap {
         display: grid;
         place-content: center;
-        width: 250px;
-        height: 250px;
+        // width: 250px;
+        // height: 250px;
         margin-bottom: 30px;
-        border-radius: 50%;
-        background: var(--main_green);
+        // border-radius: 50%;
+        // background: var(--main_green);
     }
     &__img {
         object-fit: cover;
@@ -823,7 +810,6 @@ body {
         @include mix.media_query (var.$medium) {
             padding-bottom: 50px;
         }
-
     }
     &__inner {
         display: flex;
@@ -837,7 +823,6 @@ body {
             align-items: center;
             gap: 50px;
         }
-
     }
     &__textWrap {
         width: 550px;
@@ -850,16 +835,16 @@ body {
             width: 100%;
             align-items: center;
         }
- 
     }
     &__catchWrap {
         position: relative;
     }
     &__catch {
         position: absolute;
-        top: 30px;
-        right: 50px;
-        font-size: .875rem;
+        bottom: 10px;
+        left: 180px;
+        font-size: 1rem;
+        color: var(--black);
         @include mix.media_query (var.$x-large) {
             display: none;
         }
@@ -867,7 +852,11 @@ body {
     &__imgWrap {
         @include mix.media_query (var.$medium) {
             width: 80%;
+            margin: 0 auto;
         }
+    }
+    &__img {
+        object-fit: cover;
     }
     &__subHeading {
         font-size: 1.375rem;
@@ -963,7 +952,7 @@ body {
         display: flex;
         justify-content: center;
         gap: 30px;
-        @include mix.media_query (var.$large) {
+        @include mix.media_query (var.$x-large) {
             flex-wrap: wrap;
         }
      }
@@ -989,7 +978,7 @@ body {
         border-bottom: 1px solid var(--black);
         padding-bottom: 10px;
         line-height: 1.2;
-        font-size: 1rem;
+        font-size: .9375rem;
     }
     &__text {
         text-align: center;
@@ -1192,7 +1181,7 @@ body {
             margin-right: 0;
         }
         @include mix.media_query (var.$small) {
-            width: 100px;
+            width: 130px;
             position: absolute;
             top: 150px;
             right: 30px;
@@ -1299,7 +1288,7 @@ body {
     &__popularity {
         padding: 10px 15px;
         position: absolute;
-        top: 10px;
+        top: -10px;
         left: 37px;
         transform: translate(-50%, -50%);
         z-index: 10;
@@ -1491,10 +1480,10 @@ th, td {
         @include mix.media_query (var.$small) {
             margin-bottom: 0;
             height: 120px;
-
         }
     }
     &__imgWrap {
+        width: 170px;
         margin-top: -30px;
         margin-left: auto;
         margin-right: 50px;
@@ -1686,22 +1675,6 @@ th, td {
         display: none;
         @include mix.media_query (var.$large) {
             display: block;
-        }
-    }
-    &__imgWrap {
-        width: 200px;
-        position: absolute;
-        top: 210px;
-        right: 100px;
-        @include mix.media_query (var.$x-large) {
-            width: 130px;
-            top: 280px;
-            right: 20px;
-        }
-        @include mix.media_query (var.$medium) {
-            width: 100px;
-            top: 30px;
-            right: 20px;
         }
     }
 }
@@ -1926,7 +1899,7 @@ th, td {
     &__contentsWrap {
         display: flex;
         justify-content: center;
-        gap: 150px;
+        gap: 70px;
         @include mix.media_query(var.$large) {
             gap: 50px;
         }
@@ -2456,7 +2429,9 @@ th, td {
         padding-bottom: 100px;
     }
     &__catch {
+        margin-bottom: 100px;
         text-align: center;
+        line-height: 1.3;
         font-size: 2rem;
         font-weight: bold;
         @include mix.media_query (var.$large) {
@@ -2473,8 +2448,8 @@ th, td {
     }
     &__wappenWrap {
         position: absolute;
-        top: -10%;
-        right: -5%;
+        top: -12%;
+        right: -12%;
         width: 6rem;
         height: 6rem;
         display: flex;
@@ -2485,9 +2460,13 @@ th, td {
         z-index: 9000;
         text-align: center;
         pointer-events: none;
-        @include mix.media_query(var.$x-small) {
+        @include mix.media_query (var.$large) {
+            top: -5%;
             right: -10%;
-
+        }
+        @include mix.media_query(var.$x-small) {
+            top: 5%;
+            right: -12%;
         }
     }
     &__wappen {
@@ -2517,9 +2496,9 @@ th, td {
     }
     &__cardWrap {
         display: grid;
-        grid-template-columns: 400px 400px 400px;
+        grid-template-columns: 32% 32% 32%;
         justify-content: center;
-        gap: 50px;
+        gap: 30px;
         margin-top: 50px;
         margin-bottom: 30px;
         @include mix.media_query (var.$x-large) {
@@ -2540,12 +2519,23 @@ th, td {
         border-radius: 20px 20px 0px 0px; 
         // ⬆️overflow:hiddenを使わないための指定。
     }
+    &__cardCatchHeading {
+        padding-top: 10px;
+        display: block; // text-alginを効かせるための指定。
+        text-align: center;
+        font-size: .8125rem;
+        background: linear-gradient(to left, #6CB4EE, #8BD8BD); /* グラデーション */
+        -webkit-background-clip: text;       /* 文字で切り抜く（Safari, Chrome） */
+        -webkit-text-fill-color: transparent;/* 透明な文字で背景を表示（Safari, Chrome） */
+        background-clip: text;               /* 文字で切り抜く（Firefox） */
+        color: transparent; 
+    }
     &__cardCatch {
-        padding-top: 5px;
         padding-bottom: 5px;
         text-align: center;
         font-size: 1.25rem;
         font-weight: bold;
+        color: var(--black);
     }
     &__cardTextWrap {
         padding: 10px;
@@ -2591,9 +2581,24 @@ th, td {
         font-size: 1.125rem;
         color: var(--black);
     }
-    &__count {
-        margin-bottom: 10px;
-        font-size: .875rem;
+    &__cardInner {
+        width: 90%;
+        margin: 0 auto;
+    }
+    &__goalWrap {
+        padding: 10px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        background: #FFFCE8;
+    }
+    &__goalTitle {
+        font-size: 1.125rem;
+        font-weight: bold;
+        background: linear-gradient(to left, #6CB4EE, #8BD8BD); /* グラデーション */
+        -webkit-background-clip: text;       /* 文字で切り抜く（Safari, Chrome） */
+        -webkit-text-fill-color: transparent;/* 透明な文字で背景を表示（Safari, Chrome） */
+        background-clip: text;               /* 文字で切り抜く（Firefox） */
+        color: transparent; 
     }
     &__descriptionWrap {
         width: 300px;
@@ -2607,18 +2612,15 @@ th, td {
             width: auto;
         }
     }
-    &__descriptionCatch {
+    &__descriptionCatch1, 
+    &__descriptionCatch2 {
         padding-top: 10px;
-        font-size: 1.25rem;
+        font-size: 1rem;
         font-weight: bold;
-        background: linear-gradient(to left, #6CB4EE, #8BD8BD); /* グラデーション */
-        -webkit-background-clip: text;       /* 文字で切り抜く（Safari, Chrome） */
-        -webkit-text-fill-color: transparent;/* 透明な文字で背景を表示（Safari, Chrome） */
-        background-clip: text;               /* 文字で切り抜く（Firefox） */
-        color: transparent; 
+        color: var(--main_text);
     }
     &__descriptionList {
-        width: 210px; // cardの半分の横幅
+        width: 90%; // cardの半分の横幅
         margin-right: auto;
         margin-left: auto;
         padding: 10px;
@@ -2642,19 +2644,26 @@ th, td {
             bottom: -30px;
             right: -10px;
         }
-
     }
     &__underDescriptionWrap {
-        width: 710px;
-        margin-right: auto;
-        margin-left: auto;
+        width: 90%;
+        margin: 0 auto;
         @include mix.media_query (var.$large) {
             width: 80%;
         }
     }
+    &__underDescriptionInner {
+        width: 750px; // あえて横幅を指定して要素ごと中央寄せ。
+        margin: 0 auto;
+    }
     &__underDescription {
+        width: 100%;
         text-align: left;
         font-size: .875rem;
+        margin-bottom: 20px;
+        &:last-of-type {
+            margin-bottom: 0;
+        }
         @include mix.media_query (var.$small) {
             font-size: .75rem;
         }
@@ -2667,17 +2676,13 @@ th, td {
  }
 
  .cardTitleBg1 {
-    background: #E8E8E8;
+    background: #f3fffd;
  }
  .cardTitleBg2 {
-    background: #DDEDFF;
- }
- .cardTitleBg3 {
-    background: #BECCFF;
-    color: var(--white);
+    background: #eff6ff;
  }
  .cardTitleBg4 {
-    background: #001FAB;
+    background: #f3fff6;
     color: var(--white);
  }
 
@@ -2693,27 +2698,22 @@ th, td {
         padding-top: 50px;
         padding-bottom: 100px;
     }
-    &__overWrap {
-        margin-bottom: 50px;
-    }
-    &__headingWrap {
-        margin-bottom: 50px;
-        @include mix.media_query (var.$medium) {
-            flex-direction: column;
-            align-items: flex-start;
+    &__catch {
+        margin-bottom: 100px;
+        text-align: center;
+        line-height: 1.3;
+        font-size: 2rem;
+        font-weight: bold;
+        @include mix.media_query (var.$large) {
+            font-size: 1.5rem;
         }
-    }
-    &__headingEn {
         @include mix.media_query (var.$small) {
-            font-size: 3.5rem;
-        }
-        @include mix.media_query (var.$x-small) {
-            font-size: 2.875rem;
-            margin-right: 0;
+            font-size: 1.125rem;
         }
     }
     &__description {
-        margin-left: 50px;
+        margin-bottom: 30px;
+        text-align: center;
         font-size: .875rem;
         @include mix.media_query(var.$small) {
             margin-left: 20px;
@@ -2817,6 +2817,108 @@ th, td {
             display: none;
         }
     }
+}
+
+/*----------------------------------------
+    ハイクオリティコンサルティング
+----------------------------------------*/
+
+// .highQuality
+
+.highQuality {
+    &__catchWrap {
+        margin-top: 50px;
+        margin-bottom: 100px;
+    }
+    &__catch {
+        text-align: center;
+        line-height: 1.3;
+        font-size: 2rem;
+        font-weight: bold;
+        @include mix.media_query (var.$large) {
+            font-size: 1.5rem;
+        }
+        @include mix.media_query (var.$small) {
+            font-size: 1.125rem;
+        }
+    }
+    &__cardWrap {
+        width: 95%;
+        margin: 0 auto 50px;
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        @include mix.media_query (var.$large) {
+            flex-wrap: wrap;
+        }
+    }
+    &__card {
+        border-radius: 10px;
+        background: #3A3A5A;
+    }
+    &__cardInner {
+        height: 100%;
+        padding: 10px 15px;
+        display: flex;
+        flex-direction: column;
+    }
+    &__cardCatch {
+        margin-bottom: 10px;
+        text-align: center;
+        font-size: .9375rem;
+        font-weight: bold;
+        color: #FFED4E;
+    }
+    &__cardTitle {
+        margin-bottom: 10px;
+        text-align: center;
+        line-height: 1.3;
+        font-size: 1.125rem;
+        font-weight: bold;
+        color: var(--white);
+    }
+    &__price {
+        text-align: center;
+        font-size: .9375rem;
+        color: #FFED4E;
+    }
+    &__cardTitleWrap,
+    &__goalWrap {
+        margin-bottom: 20px;
+    }
+    &__goalTitle,
+    &__operationTitle {
+        margin-bottom: 10px;
+        border-bottom: 2px solid #FFED4E;
+        font-size: 1rem;
+        color: #FFD700;
+    }
+    &__goal {
+        font-size: .8125rem;
+        color: var(--white);
+    }
+    &__operationList {
+        list-style: circle;
+    }
+    &__operationItem {
+        padding-left: 3%;
+        list-style: disc inside;
+        font-size: .9375rem;
+        color: var(--white);
+    }
+    &__textWrap {
+        width: 90%;
+        margin: 0 auto 100px;
+    }
+    &__text {
+        display: flex;  // 中央寄せのため
+        justify-content: center;
+        font-size: .9375rem;
+        @include mix.media_query (var.$large){
+            font-size: .8125rem;
+        }
+    }
+
 }
 
 /*----------------------------------------

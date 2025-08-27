@@ -3,13 +3,13 @@
 <nav class="subMenu">
     <ul class="subMenu__list blContainer">
         <li class="subMenu__item">
-            <a class="subMenu__link" href="<?php echo esc_url(home_url('/zennage/#target_page-operation')); ?>">丸投げ運用プラン<br>ゼンナゲ</a>
+            <a class="subMenu__link" href="<?php echo esc_url(home_url('/zennage/#target_page-operation')); ?>">運用プラン</a>
         </li>
         <li class="subMenu__item">
             <a class="subMenu__link" href="<?php echo esc_url(home_url('/zennage/#target_page-leave')); ?>">ご提案の内容</a>
         </li>
         <li class="subMenu__item">
-            <a class="subMenu__link" href="<?php echo esc_url(home_url('/zennage/#target_page-zennage-price')); ?>">料金と作業量の目安</a>
+            <a class="subMenu__link" href="<?php echo esc_url(home_url('/zennage/#target_page-zennage-price')); ?>">料金と作業の目安</a>
         </li>
         <li class="subMenu__item">
             <a class="subMenu__link" href="<?php echo esc_url(home_url('/zennage/#target_page-job-description')); ?>">具体的な作業内容</a>
@@ -27,14 +27,14 @@
     <div class="operation__wrapper blContainer" id="target_page-operation">
         <div class="operation__headingWrap heading">
             <h2 class="operation__headingEn heading__en">Operation plan</h2>
-            <h2 class="operation__headingJp heading__jp">運用プラン ゼンナゲ</h2>
+            <h2 class="operation__headingJp heading__jp">運用プラン</h2>
         </div>
         <div class="operation__contentsWrap">
             <div class="operation__catchWrap">
                 <h3 class="operation__catch">
-                    運用プラン「ゼンナゲ」は、<br>お客さまのお困りごと、ご要望から始めたプランです。<br>
+                    運用代行プランは、<br>お客さまのお困りごと、ご要望から始めたプランです。<br>
                     事業者さまのご要望に合わせて、無駄なものは省き、柔軟にプランを作成させていただきます。<br>
-                    もちろんサービス名の通り「ゼンナゲ」していただくことも可能です。
+                    もちろん実務でお忙しい場合は、全て丸投げしていただくことも可能です。
                 </h3>
             </div>
 
@@ -75,7 +75,7 @@
         </div>
         <div class="operation__btnWrap">
             <a class="operation__btn btn3" href="<?php echo esc_url(home_url('/zennage/#target_page-zennage-price')) ?>">
-                <span class="operation__btnText btn3__text">ゼンナゲの料金の見る</span>
+                <span class="operation__btnText btn3__text">運用プランの料金の見る</span>
             </a>
         </div>
     </div>
@@ -170,33 +170,53 @@
 
 <section class="zennagePrice">
     <div class="zennagePrice__wrapper blContainer" id="target_page-zennage-price">
-        <h2 class="zennagePrice__catch">ゼンナゲの料金と作業量の目安</h2>
+        <h2 class="zennagePrice__catch">まずは、Web集客の基盤作り！<br>運用プランの料金と作業の目安</h2>
         <div class="zennagePrice__cardWrap">
             <div class="zennagePrice__card">
                 <div class="zennagePrice__cardCatchWrap cardTitleBg1">
-                    <h3 class="zennagePrice__cardCatch">ちょこっと更新プラン</h3>
+                    <span class="zennagePrice__cardCatchHeading">Webからの問い合わせを増やしたい！</span>
+                    <h3 class="zennagePrice__cardCatch">士業専門Googleビジネス運用代行</h3>
                 </div>
 
                 <div class="zennagePrice__cardTextWrap">
                     <p class="zennagePrice__price zennagePrice__price1">
-                        月額 <span class="zennagePrice__differentFont1"> 32,800</span>
+                        月額 <span class="zennagePrice__differentFont1"> 39,800</span>
                         <span class="zennagePrice__differentFont2">円</span>(税込)
                     </p>
-                    <p class="zennagePrice__count">
-                        月に <span class="zennagePrice__differentFont3">4</span>
-                        <span class="zennagePrice__differentFont4">回</span>(週1回)の更新
-                    </p>
-                    <div class="zennagePrice__descriptionWrap">
-                        <p class="zennagePrice__descriptionCatch">
-                            - 1ヶ月の更新量の目安 -
-                        </p>
-                        <ul class="zennagePrice__descriptionList">
-                            <li class="zennagePrice__descriptionItem">2ヶ月に1回のオンライン会議</li>
-                            <li class="zennagePrice__descriptionItem">(例)ブログ記事4記事作成</li>
-                            <li class="zennagePrice__descriptionItem">(例)名刺や会社資料の作成</li>
-                            <li class="zennagePrice__descriptionItem">アクセス解析 ~ 結果のご報告</li>
-                            <li class="zennagePrice__descriptionItem">更新及び改善のご提案</li>
-                        </ul>
+                    <div class="zennagePrice__cardInner">
+                        <div class="zennagePrice__goalWrap">
+                            <p class="zennagePrice__goalTitle">- ゴール設定 -</p>
+                            <p class="zennagePrice__goal">検索からの新規顧客獲得の安定化</p>
+                        </div>
+                        <div class="zennagePrice__descriptionWrap">
+                            <div>
+                                <p class="zennagePrice__descriptionCatch1">
+                                    - 期待できる効果 -
+                                </p>
+                                <ul class="zennagePrice__descriptionList">
+                                    <li class="zennagePrice__descriptionItem">Google検索やマップでの表示回数10〜20％増加</li>
+                                    <li class="zennagePrice__descriptionItem">「地域名＋士業名」などのキーワードで上位表示されやすくなる</li>
+                                    <li class="zennagePrice__descriptionItem">継続的に露出が増え、問い合わせ数が安定して伸びやすい</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <p class="zennagePrice__descriptionCatch2">
+                                    - 実現するための具体的な業務 -
+                                </p>
+                                <ul class="zennagePrice__descriptionList">
+                                    <li class="zennagePrice__descriptionItem">月2回の投稿代行</li>
+                                    <li class="zennagePrice__descriptionItem">全口コミへの返信代行</li>
+                                    <li class="zennagePrice__descriptionItem">月2枚以上の写真追加</li>
+                                    <li class="zennagePrice__descriptionItem">カテゴリ設定の最適化（3つ）</li>
+                                    <li class="zennagePrice__descriptionItem">説明文の作成・改善</li>
+                                    <li class="zennagePrice__descriptionItem">その他付随業務など</li>
+                                </ul>
+                                <p class="zennagePrice__mapDescription">
+                                    ※Googleビジネスとは、検索した時に、<br>
+                                    　右側に出てくる事業所概要のことです。
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -208,86 +228,117 @@
                 </div>
                 <!--　ワッペン終点 -->
                 <div class="zennagePrice__cardCatchWrap cardTitleBg2">
-                    <h3 class="zennagePrice__cardCatch">がんばる更新プラン</h3>
+                    <span class="zennagePrice__cardCatchHeading">Web集客、既存顧客との関係も深めたい！</span>
+                    <h3 class="zennagePrice__cardCatch">士業Web集客運用プラン</h3>
                 </div>
                 <div class="zennagePrice__cardTextWrap">
                     <p class="zennagePrice__price zennagePrice__price2">
-                        月額<span class="zennagePrice__differentFont1"> 56,800</span>
+                        月額<span class="zennagePrice__differentFont1"> 49,800</span>
                         <span class="zennagePrice__differentFont2">円</span>(税込)
                     </p>
-                    <p class="zennagePrice__count">
-                        月に <span class="zennagePrice__differentFont3">8</span>
-                        <span class="zennagePrice__differentFont4">回</span>(週2回)の更新
-                    </p>
-                    <div class="zennagePrice__descriptionWrap">
-                        <p class="zennagePrice__descriptionCatch">
-                            - 1ヶ月の更新量の目安 -
-                        </p>
-                        <ul class="zennagePrice__descriptionList">
-                            <li class="zennagePrice__descriptionItem">2ヶ月に1回のオンライン会議</li>
-                            <li class="zennagePrice__descriptionItem">(例)ブログ記事8記事作成</li>
-                            <li class="zennagePrice__descriptionItem">(例)Googleマップの投稿2件</li>
-                            <li class="zennagePrice__descriptionItem">アクセス解析 ~ 結果のご報告</li>
-                            <li class="zennagePrice__descriptionItem">更新及び改善のご提案</li>
-                        </ul>
-                            <p class="zennagePrice__mapDescription">
-                            ※Googleマップの投稿は、<br>
-                            店舗型ビジネスなどに<br>
-                            最適な施策です。
-                        </p>
+                    <div class="zennagePrice__cardInner">
+                        <div class="zennagePrice__goalWrap">
+                            <p class="zennagePrice__goalTitle">- ゴール設定 -</p>
+                            <p class="zennagePrice__goal">お問い合わせ率5%向上</p>
+                        </div>
+                        <div class="zennagePrice__descriptionWrap">
+                            <div>
+                                <p class="zennagePrice__descriptionCatch1">
+                                    - 期待できる効果 -
+                                </p>
+                                <ul class="zennagePrice__descriptionList">
+                                    <li class="zennagePrice__descriptionItem">ブログ記事を書くことで、検索からの新規顧客の流入の増加</li>
+                                    <li class="zennagePrice__descriptionItem">キーワードを狙ってブログを書くことで、お問い合わせ数が向上する</li>
+                                    <li class="zennagePrice__descriptionItem">関係構築のためにお客様に送っていた郵便やFAXがWebで完結し、閲覧率が向上する</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <p class="zennagePrice__descriptionCatch2">
+                                    - 実現するための具体的な業務 -
+                                </p>
+                                <ul class="zennagePrice__descriptionList">
+                                    <li class="zennagePrice__descriptionItem">毎月1本記事を納品</li>
+                                    <li class="zennagePrice__descriptionItem">SEOキーワード調査</li>
+                                    <li class="zennagePrice__descriptionItem">キーワードマッピング</li>
+                                    <li class="zennagePrice__descriptionItem">キーワードの選定表の作成</li>
+                                    <li class="zennagePrice__descriptionItem">アクセス解析レポート提出</li>
+                                    <li class="zennagePrice__descriptionItem">その他付随業務など</li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="zennagePrice__card">
                 <div class="zennagePrice__cardCatchWrap cardTitleBg4">
-                    <h3 class="zennagePrice__cardCatch">専属Web担当者プラン</h3>
+                    <span class="zennagePrice__cardCatchHeading">新規顧客も取りたい、既存顧客との関係も深めたい！</span>
+                    <h3 class="zennagePrice__cardCatch">LINE顧客サポート自動化プラン</h3>
                 </div>
                 <div class="zennagePrice__cardTextWrap">
                     <p class="zennagePrice__price zennagePrice__price4">
-                        月額 <span class="zennagePrice__differentFont1"> 76,800</span>
+                        月額 <span class="zennagePrice__differentFont1"> 59,800</span>
                         <span class="zennagePrice__differentFont2">円</span>(税込)
                     </p>
-                    <p class="zennagePrice__count">
-                        月に <span class="zennagePrice__differentFont3">12</span>
-                        <span class="zennagePrice__differentFont4">回</span>(週3回)の更新
-                    </p>
-                    <div class="zennagePrice__descriptionWrap">
-                        <p class="zennagePrice__descriptionCatch">
-                            - 1ヶ月の更新量の目安 -
-                        </p>
-                        <ul class="zennagePrice__descriptionList">
-                            <li class="zennagePrice__descriptionItem">2ヶ月に1回のオンライン会議</li>
-                            <li class="zennagePrice__descriptionItem">(例)ブログ記事12記事作成</li>
-                            <li class="zennagePrice__descriptionItem">(例)LINE公式アカウントの作成</li>
-                            <li class="zennagePrice__descriptionItem">アクセス解析 ~ 結果のご報告</li>
-                            <li class="zennagePrice__descriptionItem">更新及び改善のご提案</li>
-                        </ul>
+                    <div class="zennagePrice__cardInner">
+                        <div class="zennagePrice__goalWrap">
+                            <p class="zennagePrice__goalTitle">- ゴール設定 -</p>
+                            <p class="zennagePrice__goal">検索からの新規顧客獲得の安定化</p>
+                        </div>
+                        <div class="zennagePrice__descriptionWrap">
+                            <div>
+                                <p class="zennagePrice__descriptionCatch1">
+                                    - 期待できる効果 -
+                                </p>
+                                <ul class="zennagePrice__descriptionList">
+                                    <li class="zennagePrice__descriptionItem">既存のお客さまに送っていた情報提供のFAXや郵送を全て自動化。</li>
+                                    <li class="zennagePrice__descriptionItem">しかも確実に届き、開封率もかなり高く、読んでもらいやすい！</li>
+                                    <li class="zennagePrice__descriptionItem">取りこぼしていた見込み顧客、新規顧客が可視化され、アプローチもできる！</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <p class="zennagePrice__descriptionCatch2">
+                                    - 実現するための具体的な業務 -
+                                </p>
+                                <ul class="zennagePrice__descriptionList">
+                                    <li class="zennagePrice__descriptionItem">LINE公式アカウントの構築</li>
+                                    <li class="zennagePrice__descriptionItem">顧客セグメントの切り分け</li>
+                                    <li class="zennagePrice__descriptionItem">自動応答シナリオの構築</li>
+                                    <li class="zennagePrice__descriptionItem">定期配信のテンプレートの作成</li>
+                                    <li class="zennagePrice__descriptionItem">説明文の作成・改善</li>
+                                    <li class="zennagePrice__descriptionItem">申し込みフォームの設置</li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="zennagePrice__underDescriptionWrap">
-        <p class="zennagePrice__underDescription">
-            ※ブログの更新やWeb業務でお困りでないお客さまには、<br class="zennagePrice__break1">
-            保守やサイトの修正のみの月額5,900円(税込み)のプランをご用意しておりますので、お気軽にご利用ください。
-        </p>
-
+            <div class="zennagePrice__underDescriptionInner">
+                <p class="zennagePrice__underDescription">
+                    ※1 ブログの更新やWeb業務でお困りでないお客さまには、<br class="zennagePrice__break1">
+                    　　サイトの保守管理のみの月額9,800円(税込み)のプランをご用意しておりますので、お気軽にご利用ください。
+                </p>
+                <p class="zennagePrice__underDescription">
+                    ※2 ゴール設定はあくまで一例です。<br class="zennagePrice__break1">
+                    　　お客さまに合わせてゴールを設定します。もちろん、そのままパッケージでのご提供も可能です。
+                </p>
+            </div>
         </div>
     </div>
 </section>
 
 <section class="jobDescription">
     <div class="jobDescription__wrapper blContainer" id="target_page-job-description">
-        <div class="jobDescription__overWrap">
-            <div class="jobDescription__headingWrap heading">
-                <h2 class="jobDescription__headingEn heading__en">Job description</h2>
-                <h2 class="jobDescription__headingJp heading__jp">具体的な作業内容</h2>
-            </div>
-            <p class="jobDescription__description">
-                ほんの一例ですが、作業内容の例をご紹介します。<br>
-                実際には、各事業者さまに合わせた業務の内容を作成いたします。
-            </p>
-        </div>
+        <h2 class="jobDescription__catch">
+            またあれもこれも丸投げで、全部やっておいてほしい！<br>
+            という方のために作業別にお見積りを出しておりますので、<br>
+            お気軽にお申し付けください。
+        </h2>
+        <p class="jobDescription__description">
+            ほんの一例ですが、作業内容の例をご紹介します。<br>
+            実際には、各事業者さまに合わせた業務の内容を作成いたします。
+        </p>
         <div class="jobDescription__cardWrap">
             <div class="jobDescription__card">
                 <div class="jobDescription__imgWrap">
@@ -384,6 +435,128 @@
     </div>
 </section>
 
+<section class="highQuality blContainer">
+    <div class="highQuality__catchWrap">
+        <h2 class="highQuality__catch">
+            基盤を作ったあとで、<br>
+            本格的にWeb施策で課題を解決したい方へ
+        </h2>
+    </div>
+    <div class="highQuality__cardWrap">
+        <div class="highQuality__card">
+            <div class="highQuality__cardInner">
+                <div class="highQuality__cardTitleWrap">
+                    <p class="highQuality__cardCatch">
+                        Web集客に本格的に力をいれたい方へ
+                    </p>
+                    <h3 class="highQuality__cardTitle">
+                        A.士業集客オールインワン<br>
+                        検索からの集客対策
+                    </h3>
+                    <p class="highQuality__price">￥13万〜17万</p>
+                </div>
+
+                <div class="highQuality__goalWrap">
+                    <p class="highQuality__goalTitle">目指す成果と方向性</p>
+                    <p class="highQuality__goal">
+                        「半年以内に顧問契約数を20％増加」など<br>
+                        (事務所の課題に合わせて方向性を決めさせていただきます。)
+                    </p>
+                </div>
+                <div class="highQuality__operationWrap">
+                    <p class="highQuality__operationTitle">具体的な施策と業務の例</p>
+                    <ul class="highQuality__operationList">
+                        <li class="highQuality__operationItem">SEO記事2本／月</li>
+                        <li class="highQuality__operationItem">Googleビジネス強化</li>
+                        <li class="highQuality__operationItem">アクセス解析</li>
+                        <li class="highQuality__operationItem">サイト改善提案</li>
+                        <li class="highQuality__operationItem">LP作成・改善</li>
+                        <li class="highQuality__operationItem">llms.txtの設置(AI対策)</li>
+                        <li class="highQuality__operationItem">月次会議</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="highQuality__card">
+            <div class="highQuality__cardInner">
+                <div class="highQuality__cardTitleWrap">
+                    <p class="highQuality__cardCatch">
+                        費用を抑えて本格的に採用を行いたい方へ
+                    </p>
+                    <h3 class="highQuality__cardTitle">
+                        B.採用ブランディング<br>
+                        強化パック
+                    </h3>
+                    <p class="highQuality__price">￥16万〜20万</p>
+                </div>
+
+                <div class="highQuality__goalWrap">
+                    <p class="highQuality__goalTitle">目指す成果と方向性</p>
+                    <p class="highQuality__goal">
+                        「応募数×質を両立し、採用コスト削減」など<br>
+                        (事務所の課題に合わせて方向性を決めさせていただきます。)
+                    </p>
+                </div>
+                <div class="highQuality__operationWrap">
+                    <p class="highQuality__operationTitle">具体的な施策と業務の例</p>
+                    <ul class="highQuality__operationList">
+                        <li class="highQuality__operationItem">採用HP、LPの改善</li>
+                        <li class="highQuality__operationItem">求人SEO記事執筆</li>
+                        <li class="highQuality__operationItem">SNS投稿</li>
+                        <li class="highQuality__operationItem">indeed求人表の作成支援</li>
+                        <li class="highQuality__operationItem">求人ボックスSEO対策</li>
+                        <li class="highQuality__operationItem">月次レポート（応募数・PV推移）</li>
+                        <li class="highQuality__operationItem">PV数値分析、改善提案</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="highQuality__card">
+            <div class="highQuality__cardInner">
+                <div class="highQuality__cardTitleWrap">
+                    <p class="highQuality__cardCatch">
+                        Web集客も業務効率化も両方行いたい方へ
+                    </p>
+                    <h3 class="highQuality__cardTitle">
+                        C.顧問契約率向上施策<br>
+                        集客施策の伴奏支援
+                    </h3>
+                    <p class="highQuality__price">￥14万〜18万</p>
+                </div>
+
+                <div class="highQuality__goalWrap">
+                    <p class="highQuality__goalTitle">目指す成果と方向性</p>
+                    <p class="highQuality__goal">
+                        「成約率10％向上」「顧問契約数3件向上/月」など<br>
+                        (事務所の課題に合わせて方向性を決めさせていただきます。)
+                    </p>
+                </div>
+                <div class="highQuality__operationWrap">
+                    <p class="highQuality__operationTitle">具体的な施策と業務の例</p>
+                    <ul class="highQuality__operationList">
+                        <li class="highQuality__operationItem">営業導線設計図の作成の伴奏支援</li>
+                        <li class="highQuality__operationItem">提案資料作成支援</li>
+                        <li class="highQuality__operationItem">ターゲット選定支援</li>
+                        <li class="highQuality__operationItem">公式LINEアカウントでの顧客管理</li>
+                        <li class="highQuality__operationItem">公式LINEでの情報配信の仕組み作り</li>
+                        <li class="highQuality__operationItem">営業後情報配信の自動化の仕組み作り</li>
+                        <li class="highQuality__operationItem">アクションタグの設置</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="highQuality__textWrap">
+        <p class="highQuality__text">
+            集客や、採用にお悩みはありませんか？<br>
+            Web施策のために社員の雇用や、採用をお考えでしたらぜひ上記のプランをご検討ください。<br>
+            貴所の採用・Web戦略を専任のプロが、より低価格で、より効率的かつ費用対効果高くサポートします。<br>
+            まずは一度、お問い合わせフォームから無料相談の申し込みをいただければと思います。
+        </p>
+    </div>
+
+</section>
+
 <section class="frequencyQa">
     <div class="frequencyQa__wrapper blContainer" id="target_page-frequency-qa">
         <div class="frequencyQa__headingWrap heading">
@@ -444,7 +617,7 @@
                 <i class="fa-solid fa-envelope"></i>
                 <span class="frequencyQa__btnText btn1__text">メールで相談</span>
             </a>
-            <a class="frequencyQa__lineBtn btn2"  href="javascript:void(0);" onclick="openModal()">
+            <a class="frequencyQa__lineBtn btn2" href="javascript:void(0);" onclick="openModal()">
                 <i class="fa-brands fa-line"></i>
                 <span class="frequencyQa__btnText btn2__text">LINEで相談</span>
             </a>
