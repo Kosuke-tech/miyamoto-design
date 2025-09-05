@@ -33,7 +33,7 @@
             <div class="operation__catchWrap">
                 <h3 class="operation__catch">
                     運用代行プランは、<br>お客さまのお困りごと、ご要望から始めたプランです。<br>
-                    事業者さまのご要望に合わせて、無駄なものは省き、柔軟にプランを作成させていただきます。<br>
+                    事業者さまのご要望に合わせて、無駄なものは省き、柔軟にプランを作成することもできます。<br>
                     もちろん実務でお忙しい場合は、全て丸投げしていただくことも可能です。
                 </h3>
             </div>
@@ -48,7 +48,7 @@
                             <div class="operation__iconWrap">
                                 <i class="operation__icon fa-solid fa-check"></i>
                             </div>
-                            <p class="operation__cardText">忙しいからサイトやSNSの更新しておいてほしい</p>
+                            <p class="operation__cardText">忙しいからサイトやコラムの更新しておいてほしい</p>
                         </div>
                         <div class="operation__itemWrap">
                             <div class="operation__iconWrap">
