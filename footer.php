@@ -156,7 +156,7 @@
         </div>
     </div>
     <div class="footer__copyWrap">
-        <small class="footer__copy"> &copy; <?php echo get_the_date('Y'); ?>東京 埼玉 ホームページ制作 webデザイン Miyamoyo design</small>
+        <small class="footer__copy"> &copy; <?php echo get_the_date('Y'); ?>東京 埼玉 越谷 浦和 ホームページ制作 webデザイン フリーランス Miyamoyo design 宮本デザイン</small>
     </div>
 
 </footer>
